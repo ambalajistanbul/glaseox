@@ -1,20 +1,25 @@
 <!DOCTYPE html>
+<!-- Note: html lang and dir attributes are updated dynamically by app.js and compile_static_pages.py -->
 <html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Glaseox">
   
   <!-- SEO Meta Description dynamically managed by app.js -->
   <title>Glaseox | Premium Glass Perfume Bottles B2B Wholesale Istanbul</title>
   <meta name="description" content="High-quality glass perfume bottles, luxury caps, pumps and collars. Global B2B wholesale packaging supplier located in Istanbul, Turkey. MOQ applies.">
-  <link rel="canonical" id="canonical-link" href="https://glaseox.vercel.app/">
+  <link rel="canonical" id="canonical-link" href="https://glaseox.com/">
   
   <!-- Open Graph / Facebook Meta Tags -->
   <meta property="og:title" id="og-title" content="Glaseox | Premium Glass Perfume Bottles B2B Wholesale Istanbul">
   <meta property="og:description" id="og-description" content="High-quality glass perfume bottles, luxury caps, pumps and collars. Global B2B wholesale packaging supplier located in Istanbul, Turkey. MOQ applies.">
-  <meta property="og:image" content="https://glaseox.vercel.app/urunler.jpg">
-  <meta property="og:url" id="og-url" content="https://glaseox.vercel.app/">
+  <meta property="og:image" content="https://glaseox.com/urunler.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:url" id="og-url" content="https://glaseox.com/">
   <meta property="og:type" content="website">
   <meta property="og:locale" id="og-locale" content="en_US">
   
@@ -22,18 +27,20 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" id="twitter-title" content="Glaseox | Premium Glass Perfume Bottles B2B Wholesale Istanbul">
   <meta name="twitter:description" id="twitter-description" content="High-quality glass perfume bottles, luxury caps, pumps and collars. Global B2B wholesale packaging supplier located in Istanbul, Turkey. MOQ applies.">
-  <meta name="twitter:image" content="https://glaseox.vercel.app/urunler.jpg">
+  <meta name="twitter:image" content="https://glaseox.com/urunler.jpg">
 
   <!-- Hreflang tags for international search indexing -->
-  <link rel="alternate" hreflang="en" href="https://glaseox.vercel.app/" />
-  <link rel="alternate" hreflang="ru" href="https://glaseox.vercel.app/ru/" />
-  <link rel="alternate" hreflang="ro" href="https://glaseox.vercel.app/ro/" />
-  <link rel="alternate" hreflang="x-default" href="https://glaseox.vercel.app/" />
+  <link rel="alternate" hreflang="en" href="https://glaseox.com/" />
+  <link rel="alternate" hreflang="ru" href="https://glaseox.com/ru/" />
+  <link rel="alternate" hreflang="ro" href="https://glaseox.com/ro/" />
+  <link rel="alternate" hreflang="x-default" href="https://glaseox.com/" />
   
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="shortcut icon" href="./favicon.ico">
   
   <!-- Stylesheets -->
+  <link rel="preload" as="style" href="./style.css?v=2.4">
   <link rel="stylesheet" href="./style.css?v=2.4">
   
   <!-- Schema.org Structured Data -->
@@ -43,11 +50,11 @@
     "@graph": [
       {
         "@type": "Organization",
-        "@id": "https://glaseox.vercel.app/#organization",
+        "@id": "https://glaseox.com/#organization",
         "name": "Glaseox",
-        "url": "https://glaseox.vercel.app/",
-        "logo": "https://glaseox.vercel.app/logo.svg",
-        "image": "https://glaseox.vercel.app/urunler.jpg",
+        "url": "https://glaseox.com/",
+        "logo": "https://glaseox.com/logo.svg",
+        "image": "https://glaseox.com/urunler.jpg",
         "email": "ambalajistanbul@gmail.com",
         "contactPoint": [
           {
@@ -62,30 +69,30 @@
           "addressLocality": "Istanbul",
           "addressRegion": "Istanbul",
           "addressCountry": "TR",
-          "streetAddress": "Istanbul"
+          "streetAddress": "Merter, Istanbul"
         }
       },
       {
         "@type": "WebSite",
-        "@id": "https://glaseox.vercel.app/#website",
-        "url": "https://glaseox.vercel.app/",
+        "@id": "https://glaseox.com/#website",
+        "url": "https://glaseox.com/",
         "name": "Glaseox B2B Catalog",
         "publisher": {
-          "@id": "https://glaseox.vercel.app/#organization"
+          "@id": "https://glaseox.com/#organization"
         },
         "potentialAction": [
           {
             "@type": "SearchAction",
-            "target": "https://glaseox.vercel.app/?q={search_term_string}",
+            "target": "https://glaseox.com/?q={search_term_string}",
             "query-input": "required name=search_term_string"
           }
         ]
       },
       {
         "@type": "ItemList",
-        "@id": "https://glaseox.vercel.app/#catalog-list",
+        "@id": "https://glaseox.com/#catalog-list",
         "name": "Glaseox Premium Glass Packaging Catalog",
-        "url": "https://glaseox.vercel.app/#catalog",
+        "url": "https://glaseox.com/#catalog",
         "numberOfItems": 430,
         "itemListElement": [
           {
@@ -94,14 +101,15 @@
             "item": {
               "@type": "Product",
               "name": "Premium Glass Perfume Bottles",
-              "image": "https://glaseox.vercel.app/images/parfum-siseleri/1.jpg",
+              "image": "https://glaseox.com/images/parfum-siseleri/1.jpg",
               "description": "High-quality wholesale glass perfume bottles in various sizes (30ml, 50ml, 100ml) and custom shapes.",
               "category": "Perfume Bottles",
               "offers": {
                 "@type": "AggregateOffer",
                 "priceCurrency": "USD",
                 "offerCount": 100,
-                "price": "0.10"
+                "lowPrice": "0.10",
+                "highPrice": "2.00"
               }
             }
           },
@@ -111,14 +119,15 @@
             "item": {
               "@type": "Product",
               "name": "Luxury Perfume Caps",
-              "image": "https://glaseox.vercel.app/images/parfum-kapaklari/1.jpg",
+              "image": "https://glaseox.com/images/parfum-kapaklari/1.jpg",
               "description": "Luxury metal, wooden, and plastic perfume caps for standard neck sizes.",
               "category": "Perfume Caps",
               "offers": {
                 "@type": "AggregateOffer",
                 "priceCurrency": "USD",
                 "offerCount": 50,
-                "price": "0.05"
+                "lowPrice": "0.05",
+                "highPrice": "1.00"
               }
             }
           },
@@ -128,14 +137,15 @@
             "item": {
               "@type": "Product",
               "name": "Perfume Pumps and Collars",
-              "image": "https://glaseox.vercel.app/images/pompa-bilezik/1.jpg",
+              "image": "https://glaseox.com/images/pompa-bilezik/1.jpg",
               "description": "Fine mist crimp and screw pumps with matching metal collars in gold, silver, and black.",
               "category": "Pumps & Collars",
               "offers": {
                 "@type": "AggregateOffer",
                 "priceCurrency": "USD",
                 "offerCount": 40,
-                "price": "0.03"
+                "lowPrice": "0.03",
+                "highPrice": "0.50"
               }
             }
           }
@@ -149,72 +159,96 @@
 
   <!-- FIXED GLASSMORPHIC HEADER -->
   <header>
-    <div class="container">
-      <div class="nav-left">
-        <a href="#" class="logo" aria-label="Glaseox Home">
-          <svg class="logo-svg" viewBox="0 0 500 120" style="height: 42px; width: auto; display: block;">
-            <defs>
-              <linearGradient id="logo-gold" x1="0%" y1="0%" x2="100%" y2="100%">
-                <stop offset="0%" stop-color="#D4AF37" />
-                <stop offset="50%" stop-color="#F3E5AB" />
-                <stop offset="100%" stop-color="#AA7C11" />
-              </linearGradient>
-            </defs>
-            <g transform="translate(10, 10)">
-              <rect x="15" y="30" width="50" height="60" rx="8" fill="none" stroke="url(#logo-gold)" stroke-width="3.5" opacity="0.9"/>
-              <path d="M 23 45 Q 40 40 57 45 L 57 80 Q 40 85 23 80 Z" fill="url(#logo-gold)" opacity="0.15"/>
-              <rect x="30" y="20" width="20" height="10" rx="2" fill="url(#logo-gold)" />
-              <rect x="25" y="5" width="30" height="15" rx="3" fill="none" stroke="url(#logo-gold)" stroke-width="2.5" />
-              <line x1="25" y1="40" x2="25" y2="80" stroke="#FFF" stroke-width="1.5" opacity="0.3" stroke-linecap="round"/>
-            </g>
-            <text x="95" y="72" font-family="'Inter', 'Outfit', 'Segoe UI', sans-serif" font-size="44" font-weight="800" letter-spacing="4" class="logo-text-main">
-              GLASE<tspan fill="url(#logo-gold)">OX</tspan>
-            </text>
-            <text x="98" y="94" font-family="'Inter', 'Segoe UI', sans-serif" font-size="11" font-weight="600" letter-spacing="6" class="logo-text-sub" opacity="0.8">
-              PREMIUM GLASS PACKAGING
-            </text>
-          </svg>
-        </a>
-      </div>
+    <div class="container nav-container">
+      <a href="#" class="logo" aria-label="Glaseox Home">
+        <svg class="logo-svg" viewBox="0 0 500 120" aria-hidden="true">
+          <defs>
+            <linearGradient id="logo-gold" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#D4AF37" />
+              <stop offset="50%" stop-color="#F3E5AB" />
+              <stop offset="100%" stop-color="#AA7C11" />
+            </linearGradient>
+          </defs>
+          <g transform="translate(10, 10)">
+            <rect x="15" y="30" width="50" height="60" rx="8" fill="none" stroke="url(#logo-gold)" stroke-width="3.5" opacity="0.9"/>
+            <path d="M 23 45 Q 40 40 57 45 L 57 80 Q 40 85 23 80 Z" fill="url(#logo-gold)" opacity="0.15"/>
+            <rect x="30" y="20" width="20" height="10" rx="2" fill="url(#logo-gold)" />
+            <rect x="25" y="5" width="30" height="15" rx="3" fill="none" stroke="url(#logo-gold)" stroke-width="2.5" />
+            <line x1="25" y1="40" x2="25" y2="80" stroke="#FFF" stroke-width="1.5" opacity="0.3" stroke-linecap="round"/>
+          </g>
+          <text x="95" y="72" font-family="'Inter', 'Outfit', 'Segoe UI', sans-serif" font-size="44" font-weight="800" letter-spacing="4" class="logo-text-main">
+            GLASE<tspan fill="url(#logo-gold)">OX</tspan>
+          </text>
+          <text x="98" y="94" font-family="'Inter', 'Segoe UI', sans-serif" font-size="11" font-weight="600" letter-spacing="6" class="logo-text-sub" opacity="0.8">
+            PREMIUM GLASS PACKAGING
+          </text>
+        </svg>
+      </a>
       
-      <nav class="nav-menu">
-        <a href="#home" class="nav-link active" data-trans="nav.home">Home</a>
-        <a href="#catalog" class="nav-link" data-trans="nav.products">Products</a>
-        
-        <!-- Premium Categories Dropdown -->
-        <div class="header-dropdown-container" id="header-dropdown-container">
-          <button id="header-categories-btn" class="header-dropdown-btn" aria-haspopup="true" aria-expanded="false" aria-label="Toggle Categories">
-            <img src="./images/catalogue.svg" alt="" id="dropdown-btn-icon" class="dropdown-btn-icon">
-            <span id="dropdown-btn-label" data-trans="all_categories">All Products</span>
-            <svg class="dropdown-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
-            </svg>
-          </button>
-          <div class="header-dropdown-menu" id="header-categories-dropdown" role="menu">
-            <!-- Dynamically populated dropdown list items -->
-          </div>
-        </div>
-        
-        <a href="#about" class="nav-link" data-trans="nav.about">About</a>
-        <a href="#contact" class="nav-link" data-trans="nav.contact">Contact</a>
+      <!-- Desktop Nav Links (app.js populate etmeye devam edebilir) -->
+      <nav class="nav-menu" id="header-nav-menu" aria-label="Main navigation">
+        <a href="#catalog" class="nav-link" data-trans="nav.cat_all">All Products</a>
+        <a href="#catalog" class="nav-link" data-trans="nav.cat_bottles">Bottles</a>
+        <a href="#catalog" class="nav-link" data-trans="nav.cat_caps">Caps</a>
+        <a href="#catalog" class="nav-link" data-trans="nav.cat_pumps">Pumps</a>
+        <a href="#catalog" class="nav-link" data-trans="nav.cat_sets">Mini Sets</a>
+        <a href="#catalog" class="nav-link" data-trans="nav.cat_diffusers">Diffusers</a>
+        <a href="#catalog" class="nav-link" data-trans="nav.cat_sprays">Sprays</a>
+        <a href="#catalog" class="nav-link" data-trans="nav.cat_jars">Jars</a>
+        <a href="#catalog" class="nav-link" data-trans="nav.cat_serum">Serum</a>
+        <a href="#catalog" class="nav-link" data-trans="nav.cat_car">Car Perfumes</a>
       </nav>
       
       <div class="nav-right">
         <!-- Language Switcher -->
-        <div class="lang-selector">
+        <div class="lang-selector" role="group" aria-label="Language selector">
           <button class="lang-btn active" data-trans-lang="en" data-lang="en">EN</button>
           <button class="lang-btn" data-trans-lang="ru" data-lang="ru">RU</button>
           <button class="lang-btn" data-trans-lang="ro" data-lang="ro">RO</button>
         </div>
         
         <!-- Telegram Quick Action -->
-        <a href="https://t.me/ambalajistanbul" class="btn-telegram" target="_blank">
-          <svg viewBox="0 0 24 24">
+        <a href="https://t.me/ambalajistanbul" class="btn-telegram desktop-only" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
             <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-1-.65-.35-1 .22-1.6 1.5-1.55 2.76-2.96 2.88-3.53.02-.07.02-.27-.1-.37s-.3-.07-.3-.07-1.18.73-3.34 2.18c-.32.22-.6.33-.86.32-.28-.01-.83-.16-1.24-.29-.5-.17-.9-.26-.86-.56.02-.15.23-.31.63-.48 2.47-1.07 4.12-1.78 4.96-2.12 2.37-.97 2.86-1.14 3.18-1.14.07 0 .23.02.33.1.08.07.1.18.11.27z"/>
           </svg>
           <span data-trans="contact_telegram">Telegram</span>
         </a>
+
+        <!-- Hamburger Button -->
+        <button class="hamburger-btn" id="hamburger-btn" aria-label="Open menu" aria-expanded="false">
+          <span class="ham-line"></span>
+          <span class="ham-line"></span>
+          <span class="ham-line"></span>
+        </button>
       </div>
+    </div>
+
+    <!-- Mobile Menu Dropdown Overlay -->
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+      <nav class="mobile-nav-links">
+        <a href="#catalog" data-trans="nav.cat_all">All Products</a>
+        <a href="#catalog" data-trans="nav.cat_bottles">Bottles</a>
+        <a href="#catalog" data-trans="nav.cat_caps">Caps</a>
+        <a href="#catalog" data-trans="nav.cat_pumps">Pumps</a>
+        <a href="#catalog" data-trans="nav.cat_sets">Mini Sets</a>
+        <a href="#catalog" data-trans="nav.cat_diffusers">Diffusers</a>
+        <a href="#catalog" data-trans="nav.cat_sprays">Sprays</a>
+        <a href="#catalog" data-trans="nav.cat_jars">Jars</a>
+        <a href="#catalog" data-trans="nav.cat_serum">Serum</a>
+        <a href="#catalog" data-trans="nav.cat_car">Car Perfumes</a>
+      </nav>
+      <div class="mobile-lang-selector">
+        <button class="lang-btn" data-trans-lang="en" data-lang="en">EN</button>
+        <button class="lang-btn" data-trans-lang="ru" data-lang="ru">RU</button>
+        <button class="lang-btn" data-trans-lang="ro" data-lang="ro">RO</button>
+      </div>
+      <a href="https://t.me/ambalajistanbul" class="btn-telegram mobile-telegram" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-1-.65-.35-1 .22-1.6 1.5-1.55 2.76-2.96 2.88-3.53.02-.07.02-.27-.1-.37s-.3-.07-.3-.07-1.18.73-3.34 2.18c-.32.22-.6.33-.86.32-.28-.01-.83-.16-1.24-.29-.5-.17-.9-.26-.86-.56.02-.15.23-.31.63-.48 2.47-1.07 4.12-1.78 4.96-2.12 2.37-.97 2.86-1.14 3.18-1.14.07 0 .23.02.33.1.08.07.1.18.11.27z"/>
+        </svg>
+        <span data-trans="contact_telegram">Telegram</span>
+      </a>
     </div>
   </header>
 
@@ -232,7 +266,7 @@
       
       <!-- B2B Wholesale MOQ Warning Banner -->
       <div class="notice-banner">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="28" height="28">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="28" height="28" aria-hidden="true">
           <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126ZM12 15.75h.007v.008H12v-.008Z" />
         </svg>
         <p data-trans="notice_text"><strong>Wholesale Only:</strong> Minimum order quantities (MOQ) apply to all requests. We do not offer retail sales or individual items.</p>
@@ -254,7 +288,7 @@
             <div class="stat-label" data-trans="hero.stats.clients">B2B Clients</div>
           </div>
           <div class="stat-card">
-            <div class="stat-number">15+</div>
+            <div class="stat-number">18+</div>
             <div class="stat-label" data-trans="hero.stats.years">Years</div>
           </div>
         </div>
@@ -277,9 +311,10 @@
       <div class="controls-wrapper">
         <!-- Search bar -->
         <div class="search-box">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
             <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.602 10.602Z" />
           </svg>
+          <label for="search-input" class="visually-hidden" data-trans="common.search">Search products...</label>
           <input type="text" id="search-input" data-trans="search_placeholder" placeholder="Search bottles, caps, sizes...">
         </div>
         
@@ -311,7 +346,7 @@
     <div class="modal-container">
       <!-- Close button -->
       <button class="modal-close-btn" id="modal-close-btn" aria-label="Close modal">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" width="20" height="20">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" width="20" height="20" aria-hidden="true">
           <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
         </svg>
       </button>
@@ -322,7 +357,7 @@
         <div class="modal-gallery">
           <!-- Main preview -->
           <div class="main-preview-container">
-            <img src="" id="modal-main-img" alt="">
+            <img src="" id="modal-main-img" alt="Product image">
           </div>
           <!-- Thumbnails list -->
           <div class="thumbs-list">
@@ -349,8 +384,8 @@
           <!-- Actions -->
           <div class="modal-actions">
             <!-- Telegram CTA -->
-            <a href="https://t.me/ambalajistanbul" class="btn-telegram" id="modal-tg-btn" target="_blank">
-              <svg viewBox="0 0 24 24">
+            <a href="https://t.me/ambalajistanbul" class="btn-telegram" id="modal-tg-btn" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
                 <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-1-.65-.35-1 .22-1.6 1.5-1.55 2.76-2.96 2.88-3.53.02-.07.02-.27-.1-.37s-.3-.07-.3-.07-1.18.73-3.34 2.18c-.32.22-.6.33-.86.32-.28-.01-.83-.16-1.24-.29-.5-.17-.9-.26-.86-.56.02-.15.23-.31.63-.48 2.47-1.07 4.12-1.78 4.96-2.12 2.37-.97 2.86-1.14 3.18-1.14.07 0 .23.02.33.1.08.07.1.18.11.27z"/>
               </svg>
               <span data-trans="contact_telegram">Telegram</span>
@@ -369,7 +404,7 @@
       <div class="about-grid">
         <div class="about-content">
           <h2 data-trans="about.title">Leading Global Manufacturer of Glass Packaging</h2>
-          <p data-trans="about.p1">Glaseox has been a trusted B2B packaging manufacturer and wholesale exporter for over 15 years.</p>
+          <p data-trans="about.p1">Glaseox has been a trusted B2B packaging manufacturer and wholesale exporter for over 18 years.</p>
           <p data-trans="about.p2">Our commitment to quality, design excellence, and reliable delivery has made us the partner of choice for B2B fragrance brands worldwide.</p>
           <p data-trans="about.p3">With a state-of-the-art catalog of perfume bottles, caps, pumps, and custom cosmetic packaging components, we offer the widest selection in the B2B market.</p>
         </div>
@@ -388,11 +423,11 @@
         <h2 data-trans="benefits.subtitle">The trusted partner behind 500+ successful fragrance brands worldwide</h2>
         <div class="testimonials-rating-summary">
           <div class="stars-list">
-            <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-            <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-            <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-            <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-            <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
           </div>
           <span class="rating-value">4.9 / 5.0</span>
           <span class="rating-count" data-trans="faq_rating_count_label">(120+ reviews)</span>
@@ -454,13 +489,13 @@
           
           <div class="info-item">
             <div class="info-icon">
-              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" aria-hidden="true">
                 <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-1-.65-.35-1 .22-1.6 1.5-1.55 2.76-2.96 2.88-3.53.02-.07.02-.27-.1-.37s-.3-.07-.3-.07-1.18.73-3.34 2.18c-.32.22-.6.33-.86.32-.28-.01-.83-.16-1.24-.29-.5-.17-.9-.26-.86-.56.02-.15.23-.31.63-.48 2.47-1.07 4.12-1.78 4.96-2.12 2.37-.97 2.86-1.14 3.18-1.14.07 0 .23.02.33.1.08.07.1.18.11.27z"/>
               </svg>
             </div>
             <div class="info-text">
               <h4 data-trans="telegram_label">Telegram Sales</h4>
-              <a href="https://t.me/ambalajistanbul" target="_blank">@ambalajistanbul</a>
+              <a href="https://t.me/ambalajistanbul" target="_blank" rel="noopener noreferrer">@ambalajistanbul</a>
             </div>
           </div>
         </div>
@@ -469,10 +504,10 @@
         <div class="contact-card">
           <h3 data-trans="contact_form_title" style="margin-bottom: 24px; font-size: 1.5rem;">Send Wholesale Inquiry</h3>
           
-          <form id="contact-form">
+          <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
             <!-- Web3Forms configuration to receive emails on ambalajistanbul@gmail.com -->
             <!-- Using public access key. The user can swap this out with their own easily. -->
-            <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY_HERE">
+            <input type="hidden" name="access_key" value="8fb30ce0-d15f-4794-8c74-1e56b23f1c20">
             <input type="hidden" name="subject" value="New B2B Wholesale Inquiry from Glaseox Web">
             <input type="hidden" name="from_name" value="Glaseox Catalog Website">
             <input type="checkbox" name="botcheck" style="display: none;">
@@ -525,7 +560,7 @@
             </div>
             
             <!-- Feedback status -->
-            <div class="form-status" id="form-status">Status message</div>
+            <div class="form-status" id="form-status" style="display: none;"></div>
           </form>
         </div>
       </div>
@@ -564,12 +599,12 @@
         </div>
         
         <!-- Contacts -->
-        <div class="footer-col">
+        <div class="footer-col footer-contact-col">
           <h4 data-trans="footer.contact">Contact</h4>
-          <ul>
-            <li><span data-trans="contact.email_label">Email</span>:<br><a href="mailto:ambalajistanbul@gmail.com" style="color: var(--color-primary); font-weight: 500;">ambalajistanbul@gmail.com</a></li>
-            <li style="margin-top: 10px;"><span data-trans="telegram_label">Telegram Sales</span>:<br><a href="https://t.me/ambalajistanbul" target="_blank" style="color: var(--color-primary); font-weight: 500;">@ambalajistanbul</a></li>
-            <li data-trans="address_val" style="margin-top: 10px;">Istanbul, Turkey</li>
+          <ul class="footer-contact-list">
+            <li><span data-trans="contact.email_label">Email</span>: <a href="mailto:ambalajistanbul@gmail.com" style="color: var(--color-primary); font-weight: 500;">ambalajistanbul@gmail.com</a></li>
+            <li><span data-trans="telegram_label">Telegram Sales</span>: <a href="https://t.me/ambalajistanbul" target="_blank" rel="noopener noreferrer" style="color: var(--color-primary); font-weight: 500;">@ambalajistanbul</a></li>
+            <li data-trans="address_val">Istanbul, Turkey</li>
           </ul>
         </div>
       </div>
@@ -591,7 +626,7 @@
   <div class="modal-overlay" id="policy-modal">
     <div class="modal-container" style="max-width: 640px;">
       <button class="modal-close-btn" id="policy-close-btn" aria-label="Close modal">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" width="20" height="20">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" width="20" height="20" aria-hidden="true">
           <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
         </svg>
       </button>
@@ -606,7 +641,7 @@
 
   <!-- BACK TO TOP BUTTON -->
   <button id="back-to-top" class="back-to-top-btn" aria-label="Back to Top">
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" aria-hidden="true">
       <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
     </svg>
   </button>
@@ -614,5 +649,24 @@
   <!-- LOAD PRODUCT JS DATABASE FIRST, THEN APP LOGIC -->
   <script src="./products_data.js"></script>
   <script src="./app.js"></script>
+  <script>
+  (function(){
+    var btn = document.getElementById('hamburger-btn');
+    var menu = document.getElementById('mobile-menu');
+    if(!btn || !menu) return;
+    btn.addEventListener('click', function(){
+      var isOpen = menu.classList.toggle('open');
+      btn.setAttribute('aria-expanded', isOpen);
+      menu.setAttribute('aria-hidden', !isOpen);
+    });
+    menu.querySelectorAll('a').forEach(function(link){
+      link.addEventListener('click', function(){
+        menu.classList.remove('open');
+        btn.setAttribute('aria-expanded', 'false');
+        menu.setAttribute('aria-hidden', 'true');
+      });
+    });
+  })();
+  </script>
 </body>
 </html>

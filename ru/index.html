@@ -1,35 +1,42 @@
 <!DOCTYPE html>
+<!-- Note: html lang and dir attributes are updated dynamically by app.js and compile_static_pages.py -->
 <html dir="ltr" lang="ru">
  <head>
   <meta charset="utf-8"/>
   <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="index, follow" name="robots"/>
+  <meta content="Glaseox" name="author"/>
   <!-- SEO Meta Description dynamically managed by app.js -->
   <title>
    Glaseox | Стеклянные флаконы для духов премиум-класса Оптом Стамбул
   </title>
   <meta content="Высококачественные стеклянные флаконы для духов, люксовые крышки, помпы и воротнички. Глобальный B2B оптовый поставщик упаковки в Стамбуле, Турция. Минимальный заказ." name="description"/>
-  <link href="https://glaseox.vercel.app/ru/" id="canonical-link" rel="canonical"/>
+  <link href="https://glaseox.com/ru/" id="canonical-link" rel="canonical"/>
   <!-- Open Graph / Facebook Meta Tags -->
   <meta content="Glaseox | Стеклянные флаконы для духов премиум-класса Оптом Стамбул" id="og-title" property="og:title"/>
   <meta content="Высококачественные стеклянные флаконы для духов, люксовые крышки, помпы и воротнички. Глобальный B2B оптовый поставщик упаковки в Стамбуле, Турция. Минимальный заказ." id="og-description" property="og:description"/>
-  <meta content="https://glaseox.vercel.app/urunler.jpg" property="og:image"/>
-  <meta content="https://glaseox.vercel.app/ru/" id="og-url" property="og:url"/>
+  <meta content="https://glaseox.com/urunler.jpg" property="og:image"/>
+  <meta content="1200" property="og:image:width"/>
+  <meta content="630" property="og:image:height"/>
+  <meta content="https://glaseox.com/ru/" id="og-url" property="og:url"/>
   <meta content="website" property="og:type"/>
   <meta content="ru_RU" id="og-locale" property="og:locale"/>
   <!-- Twitter Card Meta Tags -->
   <meta content="summary_large_image" name="twitter:card"/>
   <meta content="Glaseox | Стеклянные флаконы для духов премиум-класса Оптом Стамбул" id="twitter-title" name="twitter:title"/>
   <meta content="Высококачественные стеклянные флаконы для духов, люксовые крышки, помпы и воротнички. Глобальный B2B оптовый поставщик упаковки в Стамбуле, Турция. Минимальный заказ." id="twitter-description" name="twitter:description"/>
-  <meta content="https://glaseox.vercel.app/urunler.jpg" name="twitter:image"/>
+  <meta content="https://glaseox.com/urunler.jpg" name="twitter:image"/>
   <!-- Hreflang tags for international search indexing -->
-  <link href="https://glaseox.vercel.app/" hreflang="en" rel="alternate"/>
-  <link href="https://glaseox.vercel.app/ru/" hreflang="ru" rel="alternate"/>
-  <link href="https://glaseox.vercel.app/ro/" hreflang="ro" rel="alternate"/>
-  <link href="https://glaseox.vercel.app/" hreflang="x-default" rel="alternate"/>
+  <link href="https://glaseox.com/" hreflang="en" rel="alternate"/>
+  <link href="https://glaseox.com/ru/" hreflang="ru" rel="alternate"/>
+  <link href="https://glaseox.com/ro/" hreflang="ro" rel="alternate"/>
+  <link href="https://glaseox.com/" hreflang="x-default" rel="alternate"/>
   <!-- Favicon -->
   <link href="../favicon.svg" rel="icon" type="image/svg+xml"/>
+  <link href="../favicon.ico" rel="shortcut icon"/>
   <!-- Stylesheets -->
+  <link as="style" href="../style.css?v=2.4" rel="preload"/>
   <link href="../style.css?v=2.4" rel="stylesheet"/>
   <!-- Schema.org Structured Data -->
   <script type="application/ld+json">
@@ -38,11 +45,11 @@
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://glaseox.vercel.app/#organization",
+      "@id": "https://glaseox.com/#organization",
       "name": "Glaseox",
-      "url": "https://glaseox.vercel.app/",
-      "logo": "https://glaseox.vercel.app/logo.svg",
-      "image": "https://glaseox.vercel.app/urunler.jpg",
+      "url": "https://glaseox.com/",
+      "logo": "https://glaseox.com/logo.svg",
+      "image": "https://glaseox.com/urunler.jpg",
       "email": "ambalajistanbul@gmail.com",
       "description": "Высококачественные стеклянные флаконы для духов, люксовые крышки, помпы и воротнички. Глобальный B2B оптовый поставщик упаковки в Стамбуле, Турция. Минимальный заказ.",
       "contactPoint": [
@@ -58,30 +65,30 @@
         "addressLocality": "Istanbul",
         "addressRegion": "Istanbul",
         "addressCountry": "TR",
-        "streetAddress": "Istanbul"
+        "streetAddress": "Merter, Istanbul"
       }
     },
     {
       "@type": "WebSite",
-      "@id": "https://glaseox.vercel.app/#website",
-      "url": "https://glaseox.vercel.app/",
+      "@id": "https://glaseox.com/#website",
+      "url": "https://glaseox.com/",
       "name": "Glaseox | Стеклянные флаконы для духов премиум-класса Оптом Стамбул",
       "publisher": {
-        "@id": "https://glaseox.vercel.app/#organization"
+        "@id": "https://glaseox.com/#organization"
       },
       "potentialAction": [
         {
           "@type": "SearchAction",
-          "target": "https://glaseox.vercel.app/?q={search_term_string}",
+          "target": "https://glaseox.com/?q={search_term_string}",
           "query-input": "required name=search_term_string"
         }
       ]
     },
     {
       "@type": "ItemList",
-      "@id": "https://glaseox.vercel.app/#catalog-list",
+      "@id": "https://glaseox.com/#catalog-list",
       "name": "Каталог премиальной стеклянной упаковки Glaseox",
-      "url": "https://glaseox.vercel.app/#catalog",
+      "url": "https://glaseox.com/#catalog",
       "numberOfItems": 430,
       "itemListElement": [
         {
@@ -90,14 +97,15 @@
           "item": {
             "@type": "Product",
             "name": "Стеклянные флаконы для духов премиум-класса",
-            "image": "https://glaseox.vercel.app/images/parfum-siseleri/1.jpg",
+            "image": "https://glaseox.com/images/parfum-siseleri/1.jpg",
             "description": "Высококачественные стеклянные флаконы для духов оптом различных размеров (30 мл, 50 мл, 100 мл) и индивидуальных форм.",
             "category": "Стеклянные флаконы",
             "offers": {
               "@type": "AggregateOffer",
               "priceCurrency": "USD",
               "offerCount": 100,
-              "price": "0.10"
+              "lowPrice": "0.10",
+              "highPrice": "2.00"
             }
           }
         },
@@ -107,14 +115,15 @@
           "item": {
             "@type": "Product",
             "name": "Люксовые крышки для флаконов",
-            "image": "https://glaseox.vercel.app/images/parfum-kapaklari/1.jpg",
+            "image": "https://glaseox.com/images/parfum-kapaklari/1.jpg",
             "description": "Роскошные металлические, деревянные и пластиковые крышки для флаконов стандартных размеров.",
             "category": "Крышки",
             "offers": {
               "@type": "AggregateOffer",
               "priceCurrency": "USD",
               "offerCount": 50,
-              "price": "0.05"
+              "lowPrice": "0.05",
+              "highPrice": "1.00"
             }
           }
         },
@@ -124,14 +133,15 @@
           "item": {
             "@type": "Product",
             "name": "Помпы и воротнички для духов",
-            "image": "https://glaseox.vercel.app/images/pompa-bilezik/1.jpg",
+            "image": "https://glaseox.com/images/pompa-bilezik/1.jpg",
             "description": "Распылители мелкого тумана (помпы под завальцовку и винтовые) с соответствующими металлическими воротничками золотого, серебряного и черного цветов.",
             "category": "Помпы и воротнички",
             "offers": {
               "@type": "AggregateOffer",
               "priceCurrency": "USD",
               "offerCount": 40,
-              "price": "0.03"
+              "lowPrice": "0.03",
+              "highPrice": "0.50"
             }
           }
         }
@@ -144,77 +154,78 @@
  <body>
   <!-- FIXED GLASSMORPHIC HEADER -->
   <header>
-   <div class="container">
-    <div class="nav-left">
-     <a aria-label="Glaseox Home" class="logo" href="#">
-      <svg class="logo-svg" style="height: 42px; width: auto; display: block;" viewbox="0 0 500 120">
-       <defs>
-        <lineargradient id="logo-gold" x1="0%" x2="100%" y1="0%" y2="100%">
-         <stop offset="0%" stop-color="#D4AF37">
-         </stop>
-         <stop offset="50%" stop-color="#F3E5AB">
-         </stop>
-         <stop offset="100%" stop-color="#AA7C11">
-         </stop>
-        </lineargradient>
-       </defs>
-       <g transform="translate(10, 10)">
-        <rect fill="none" height="60" opacity="0.9" rx="8" stroke="url(#logo-gold)" stroke-width="3.5" width="50" x="15" y="30">
-        </rect>
-        <path d="M 23 45 Q 40 40 57 45 L 57 80 Q 40 85 23 80 Z" fill="url(#logo-gold)" opacity="0.15">
-        </path>
-        <rect fill="url(#logo-gold)" height="10" rx="2" width="20" x="30" y="20">
-        </rect>
-        <rect fill="none" height="15" rx="3" stroke="url(#logo-gold)" stroke-width="2.5" width="30" x="25" y="5">
-        </rect>
-        <line opacity="0.3" stroke="#FFF" stroke-linecap="round" stroke-width="1.5" x1="25" x2="25" y1="40" y2="80">
-        </line>
-       </g>
-       <text class="logo-text-main" font-family="'Inter', 'Outfit', 'Segoe UI', sans-serif" font-size="44" font-weight="800" letter-spacing="4" x="95" y="72">
-        GLASE
-        <tspan fill="url(#logo-gold)">
-         OX
-        </tspan>
-       </text>
-       <text class="logo-text-sub" font-family="'Inter', 'Segoe UI', sans-serif" font-size="11" font-weight="600" letter-spacing="6" opacity="0.8" x="98" y="94">
-        PREMIUM GLASS PACKAGING
-       </text>
-      </svg>
+   <div class="container nav-container">
+    <a aria-label="Glaseox Home" class="logo" href="#">
+     <svg aria-hidden="true" class="logo-svg" viewbox="0 0 500 120">
+      <defs>
+       <lineargradient id="logo-gold" x1="0%" x2="100%" y1="0%" y2="100%">
+        <stop offset="0%" stop-color="#D4AF37">
+        </stop>
+        <stop offset="50%" stop-color="#F3E5AB">
+        </stop>
+        <stop offset="100%" stop-color="#AA7C11">
+        </stop>
+       </lineargradient>
+      </defs>
+      <g transform="translate(10, 10)">
+       <rect fill="none" height="60" opacity="0.9" rx="8" stroke="url(#logo-gold)" stroke-width="3.5" width="50" x="15" y="30">
+       </rect>
+       <path d="M 23 45 Q 40 40 57 45 L 57 80 Q 40 85 23 80 Z" fill="url(#logo-gold)" opacity="0.15">
+       </path>
+       <rect fill="url(#logo-gold)" height="10" rx="2" width="20" x="30" y="20">
+       </rect>
+       <rect fill="none" height="15" rx="3" stroke="url(#logo-gold)" stroke-width="2.5" width="30" x="25" y="5">
+       </rect>
+       <line opacity="0.3" stroke="#FFF" stroke-linecap="round" stroke-width="1.5" x1="25" x2="25" y1="40" y2="80">
+       </line>
+      </g>
+      <text class="logo-text-main" font-family="'Inter', 'Outfit', 'Segoe UI', sans-serif" font-size="44" font-weight="800" letter-spacing="4" x="95" y="72">
+       GLASE
+       <tspan fill="url(#logo-gold)">
+        OX
+       </tspan>
+      </text>
+      <text class="logo-text-sub" font-family="'Inter', 'Segoe UI', sans-serif" font-size="11" font-weight="600" letter-spacing="6" opacity="0.8" x="98" y="94">
+       PREMIUM GLASS PACKAGING
+      </text>
+     </svg>
+    </a>
+    <!-- Desktop Nav Links (app.js populate etmeye devam edebilir) -->
+    <nav aria-label="Main navigation" class="nav-menu" id="header-nav-menu">
+     <a class="nav-link" data-trans="nav.cat_all" href="#catalog">
+      Все
      </a>
-    </div>
-    <nav class="nav-menu">
-     <a class="nav-link active" data-trans="nav.home" href="#home">
-      Главная
+     <a class="nav-link" data-trans="nav.cat_bottles" href="#catalog">
+      Флаконы
      </a>
-     <a class="nav-link" data-trans="nav.products" href="#catalog">
-      Продукция
+     <a class="nav-link" data-trans="nav.cat_caps" href="#catalog">
+      Крышки
      </a>
-     <!-- Premium Categories Dropdown -->
-     <div class="header-dropdown-container" id="header-dropdown-container">
-      <button aria-expanded="false" aria-haspopup="true" aria-label="Toggle Categories" class="header-dropdown-btn" id="header-categories-btn">
-       <img alt="" class="dropdown-btn-icon" id="dropdown-btn-icon" src="../images/catalogue.svg"/>
-       <span data-trans="all_categories" id="dropdown-btn-label">
-        Все Продукты
-       </span>
-       <svg class="dropdown-chevron" fill="none" height="14" stroke="currentColor" stroke-width="2.5" viewbox="0 0 24 24" width="14">
-        <path d="M19.5 8.25l-7.5 7.5-7.5-7.5" stroke-linecap="round" stroke-linejoin="round">
-        </path>
-       </svg>
-      </button>
-      <div class="header-dropdown-menu" id="header-categories-dropdown" role="menu">
-       <!-- Dynamically populated dropdown list items -->
-      </div>
-     </div>
-     <a class="nav-link" data-trans="nav.about" href="#about">
-      О нас
+     <a class="nav-link" data-trans="nav.cat_pumps" href="#catalog">
+      Помпы
      </a>
-     <a class="nav-link" data-trans="nav.contact" href="#contact">
-      Контакты
+     <a class="nav-link" data-trans="nav.cat_sets" href="#catalog">
+      Мини-сеты
+     </a>
+     <a class="nav-link" data-trans="nav.cat_diffusers" href="#catalog">
+      Диффузоры
+     </a>
+     <a class="nav-link" data-trans="nav.cat_sprays" href="#catalog">
+      Спреи
+     </a>
+     <a class="nav-link" data-trans="nav.cat_jars" href="#catalog">
+      Баночки
+     </a>
+     <a class="nav-link" data-trans="nav.cat_serum" href="#catalog">
+      Сыворотки
+     </a>
+     <a class="nav-link" data-trans="nav.cat_car" href="#catalog">
+      Для авто
      </a>
     </nav>
     <div class="nav-right">
      <!-- Language Switcher -->
-     <div class="lang-selector">
+     <div aria-label="Language selector" class="lang-selector" role="group">
       <button class="lang-btn" data-lang="en" data-trans-lang="en">
        EN
       </button>
@@ -226,8 +237,8 @@
       </button>
      </div>
      <!-- Telegram Quick Action -->
-     <a class="btn-telegram" href="https://t.me/ambalajistanbul" target="_blank">
-      <svg viewbox="0 0 24 24">
+     <a class="btn-telegram desktop-only" href="https://t.me/ambalajistanbul" rel="noopener noreferrer" target="_blank">
+      <svg aria-hidden="true" viewbox="0 0 24 24">
        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-1-.65-.35-1 .22-1.6 1.5-1.55 2.76-2.96 2.88-3.53.02-.07.02-.27-.1-.37s-.3-.07-.3-.07-1.18.73-3.34 2.18c-.32.22-.6.33-.86.32-.28-.01-.83-.16-1.24-.29-.5-.17-.9-.26-.86-.56.02-.15.23-.31.63-.48 2.47-1.07 4.12-1.78 4.96-2.12 2.37-.97 2.86-1.14 3.18-1.14.07 0 .23.02.33.1.08.07.1.18.11.27z">
        </path>
       </svg>
@@ -235,7 +246,71 @@
        Telegram
       </span>
      </a>
+     <!-- Hamburger Button -->
+     <button aria-expanded="false" aria-label="Open menu" class="hamburger-btn" id="hamburger-btn">
+      <span class="ham-line">
+      </span>
+      <span class="ham-line">
+      </span>
+      <span class="ham-line">
+      </span>
+     </button>
     </div>
+   </div>
+   <!-- Mobile Menu Dropdown Overlay -->
+   <div aria-hidden="true" class="mobile-menu" id="mobile-menu">
+    <nav class="mobile-nav-links">
+     <a data-trans="nav.cat_all" href="#catalog">
+      Все
+     </a>
+     <a data-trans="nav.cat_bottles" href="#catalog">
+      Флаконы
+     </a>
+     <a data-trans="nav.cat_caps" href="#catalog">
+      Крышки
+     </a>
+     <a data-trans="nav.cat_pumps" href="#catalog">
+      Помпы
+     </a>
+     <a data-trans="nav.cat_sets" href="#catalog">
+      Мини-сеты
+     </a>
+     <a data-trans="nav.cat_diffusers" href="#catalog">
+      Диффузоры
+     </a>
+     <a data-trans="nav.cat_sprays" href="#catalog">
+      Спреи
+     </a>
+     <a data-trans="nav.cat_jars" href="#catalog">
+      Баночки
+     </a>
+     <a data-trans="nav.cat_serum" href="#catalog">
+      Сыворотки
+     </a>
+     <a data-trans="nav.cat_car" href="#catalog">
+      Для авто
+     </a>
+    </nav>
+    <div class="mobile-lang-selector">
+     <button class="lang-btn" data-lang="en" data-trans-lang="en">
+      EN
+     </button>
+     <button class="lang-btn active" data-lang="ru" data-trans-lang="ru">
+      RU
+     </button>
+     <button class="lang-btn" data-lang="ro" data-trans-lang="ro">
+      RO
+     </button>
+    </div>
+    <a class="btn-telegram mobile-telegram" href="https://t.me/ambalajistanbul" rel="noopener noreferrer" target="_blank">
+     <svg aria-hidden="true" viewbox="0 0 24 24">
+      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-1-.65-.35-1 .22-1.6 1.5-1.55 2.76-2.96 2.88-3.53.02-.07.02-.27-.1-.37s-.3-.07-.3-.07-1.18.73-3.34 2.18c-.32.22-.6.33-.86.32-.28-.01-.83-.16-1.24-.29-.5-.17-.9-.26-.86-.56.02-.15.23-.31.63-.48 2.47-1.07 4.12-1.78 4.96-2.12 2.37-.97 2.86-1.14 3.18-1.14.07 0 .23.02.33.1.08.07.1.18.11.27z">
+      </path>
+     </svg>
+     <span data-trans="contact_telegram">
+      Telegram
+     </span>
+    </a>
    </div>
   </header>
   <!-- HERO SECTION -->
@@ -260,7 +335,7 @@
     </div>
     <!-- B2B Wholesale MOQ Warning Banner -->
     <div class="notice-banner">
-     <svg fill="none" height="28" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24" width="28" xmlns="http://www.w3.org/2000/svg">
+     <svg aria-hidden="true" fill="none" height="28" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24" width="28" xmlns="http://www.w3.org/2000/svg">
       <path d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126ZM12 15.75h.007v.008H12v-.008Z" stroke-linecap="round" stroke-linejoin="round">
       </path>
      </svg>
@@ -300,7 +375,7 @@
       </div>
       <div class="stat-card">
        <div class="stat-number">
-        15+
+        18+
        </div>
        <div class="stat-label" data-trans="hero.stats.years">
         Лет
@@ -324,10 +399,13 @@
     <div class="controls-wrapper">
      <!-- Search bar -->
      <div class="search-box">
-      <svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
        <path d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.602 10.602Z" stroke-linecap="round" stroke-linejoin="round">
        </path>
       </svg>
+      <label class="visually-hidden" data-trans="common.search" for="search-input">
+       Поиск товаров...
+      </label>
       <input data-trans="search_placeholder" id="search-input" placeholder="Поиск флаконов, крышек, размеров..." type="text"/>
      </div>
      <!-- Products Count Badge -->
@@ -357,7 +435,7 @@
    <div class="modal-container">
     <!-- Close button -->
     <button aria-label="Close modal" class="modal-close-btn" id="modal-close-btn">
-     <svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg">
+     <svg aria-hidden="true" fill="none" height="20" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg">
       <path d="M6 18 18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round">
       </path>
      </svg>
@@ -368,7 +446,7 @@
      <div class="modal-gallery">
       <!-- Main preview -->
       <div class="main-preview-container">
-       <img alt="" id="modal-main-img" src=""/>
+       <img alt="Product image" id="modal-main-img" src=""/>
       </div>
       <!-- Thumbnails list -->
       <div class="thumbs-list">
@@ -399,8 +477,8 @@
       <!-- Actions -->
       <div class="modal-actions">
        <!-- Telegram CTA -->
-       <a class="btn-telegram" href="https://t.me/ambalajistanbul" id="modal-tg-btn" target="_blank">
-        <svg viewbox="0 0 24 24">
+       <a class="btn-telegram" href="https://t.me/ambalajistanbul" id="modal-tg-btn" rel="noopener noreferrer" target="_blank">
+        <svg aria-hidden="true" viewbox="0 0 24 24">
          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-1-.65-.35-1 .22-1.6 1.5-1.55 2.76-2.96 2.88-3.53.02-.07.02-.27-.1-.37s-.3-.07-.3-.07-1.18.73-3.34 2.18c-.32.22-.6.33-.86.32-.28-.01-.83-.16-1.24-.29-.5-.17-.9-.26-.86-.56.02-.15.23-.31.63-.48 2.47-1.07 4.12-1.78 4.96-2.12 2.37-.97 2.86-1.14 3.18-1.14.07 0 .23.02.33.1.08.07.1.18.11.27z">
          </path>
         </svg>
@@ -426,7 +504,7 @@
        Ведущий мировой производитель стеклянной упаковки
       </h2>
       <p data-trans="about.p1">
-       Glaseox — надёжное имя в индустрии парфюмерной и косметической упаковки уже более 15 лет. С нашего современного предприятия мы производим и экспортируем премиальные стеклянные флаконы, колпачки, помпы, диффузоры и аксессуары в более чем 60 стран мира.
+       Glaseox — надёжное имя в индустрии парфюмерной и косметической упаковки уже более 18 лет. С нашего современного предприятия мы производим и экспортируем премиальные стеклянные флаконы, колпачки, помпы, диффузоры и аксессуары в более чем 60 стран мира.
       </p>
       <p data-trans="about.p2">
        Наша приверженность качеству, дизайну и надёжным поставкам сделала нас партнёром выбора для сотен парфюмерных брендов — от нишевых ремесленных домов до ведущих мировых парфюмерных брендов.
@@ -453,23 +531,23 @@
      </h2>
      <div class="testimonials-rating-summary">
       <div class="stars-list">
-       <svg viewbox="0 0 20 20">
+       <svg aria-hidden="true" viewbox="0 0 20 20">
         <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
         </path>
        </svg>
-       <svg viewbox="0 0 20 20">
+       <svg aria-hidden="true" viewbox="0 0 20 20">
         <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
         </path>
        </svg>
-       <svg viewbox="0 0 20 20">
+       <svg aria-hidden="true" viewbox="0 0 20 20">
         <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
         </path>
        </svg>
-       <svg viewbox="0 0 20 20">
+       <svg aria-hidden="true" viewbox="0 0 20 20">
         <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
         </path>
        </svg>
-       <svg viewbox="0 0 20 20">
+       <svg aria-hidden="true" viewbox="0 0 20 20">
         <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
         </path>
        </svg>
@@ -552,7 +630,7 @@
       </div>
       <div class="info-item">
        <div class="info-icon">
-        <svg fill="currentColor" height="24" viewbox="0 0 24 24" width="24">
+        <svg aria-hidden="true" fill="currentColor" height="24" viewbox="0 0 24 24" width="24">
          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-1-.65-.35-1 .22-1.6 1.5-1.55 2.76-2.96 2.88-3.53.02-.07.02-.27-.1-.37s-.3-.07-.3-.07-1.18.73-3.34 2.18c-.32.22-.6.33-.86.32-.28-.01-.83-.16-1.24-.29-.5-.17-.9-.26-.86-.56.02-.15.23-.31.63-.48 2.47-1.07 4.12-1.78 4.96-2.12 2.37-.97 2.86-1.14 3.18-1.14.07 0 .23.02.33.1.08.07.1.18.11.27z">
          </path>
         </svg>
@@ -561,7 +639,7 @@
         <h4 data-trans="telegram_label">
          Продажи в Telegram
         </h4>
-        <a href="https://t.me/ambalajistanbul" target="_blank">
+        <a href="https://t.me/ambalajistanbul" rel="noopener noreferrer" target="_blank">
          @ambalajistanbul
         </a>
        </div>
@@ -572,10 +650,10 @@
       <h3 data-trans="contact_form_title" style="margin-bottom: 24px; font-size: 1.5rem;">
        Отправить Оптовый Запрос
       </h3>
-      <form id="contact-form">
+      <form action="https://api.web3forms.com/submit" id="contact-form" method="POST">
        <!-- Web3Forms configuration to receive emails on ambalajistanbul@gmail.com -->
        <!-- Using public access key. The user can swap this out with their own easily. -->
-       <input name="access_key" type="hidden" value="YOUR_WEB3FORMS_ACCESS_KEY_HERE"/>
+       <input name="access_key" type="hidden" value="8fb30ce0-d15f-4794-8c74-1e56b23f1c20"/>
        <input name="subject" type="hidden" value="New B2B Wholesale Inquiry from Glaseox Web"/>
        <input name="from_name" type="hidden" value="Glaseox Catalog Website"/>
        <input name="botcheck" style="display: none;" type="checkbox"/>
@@ -656,8 +734,7 @@
         </button>
        </div>
        <!-- Feedback status -->
-       <div class="form-status" id="form-status">
-        Status message
+       <div class="form-status" id="form-status" style="display: none;">
        </div>
       </form>
      </div>
@@ -732,32 +809,30 @@
       </ul>
      </div>
      <!-- Contacts -->
-     <div class="footer-col">
+     <div class="footer-col footer-contact-col">
       <h4 data-trans="footer.contact">
        Контакты
       </h4>
-      <ul>
+      <ul class="footer-contact-list">
        <li>
         <span data-trans="contact.email_label">
          Email
         </span>
         :
-        <br/>
         <a href="mailto:ambalajistanbul@gmail.com" style="color: var(--color-primary); font-weight: 500;">
          ambalajistanbul@gmail.com
         </a>
        </li>
-       <li style="margin-top: 10px;">
+       <li>
         <span data-trans="telegram_label">
          Продажи в Telegram
         </span>
         :
-        <br/>
-        <a href="https://t.me/ambalajistanbul" style="color: var(--color-primary); font-weight: 500;" target="_blank">
+        <a href="https://t.me/ambalajistanbul" rel="noopener noreferrer" style="color: var(--color-primary); font-weight: 500;" target="_blank">
          @ambalajistanbul
         </a>
        </li>
-       <li data-trans="address_val" style="margin-top: 10px;">
+       <li data-trans="address_val">
         Стамбул, Турция
        </li>
       </ul>
@@ -788,7 +863,7 @@
   <div class="modal-overlay" id="policy-modal">
    <div class="modal-container" style="max-width: 640px;">
     <button aria-label="Close modal" class="modal-close-btn" id="policy-close-btn">
-     <svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg">
+     <svg aria-hidden="true" fill="none" height="20" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg">
       <path d="M6 18 18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round">
       </path>
      </svg>
@@ -805,7 +880,7 @@
   </div>
   <!-- BACK TO TOP BUTTON -->
   <button aria-label="Back to Top" class="back-to-top-btn" id="back-to-top">
-   <svg fill="none" stroke="currentColor" stroke-width="2.5" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+   <svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
     <path d="M4.5 15.75l7.5-7.5 7.5 7.5" stroke-linecap="round" stroke-linejoin="round">
     </path>
    </svg>
@@ -814,6 +889,25 @@
   <script src="../products_data.js">
   </script>
   <script src="../app.js">
+  </script>
+  <script>
+   (function(){
+    var btn = document.getElementById('hamburger-btn');
+    var menu = document.getElementById('mobile-menu');
+    if(!btn || !menu) return;
+    btn.addEventListener('click', function(){
+      var isOpen = menu.classList.toggle('open');
+      btn.setAttribute('aria-expanded', isOpen);
+      menu.setAttribute('aria-hidden', !isOpen);
+    });
+    menu.querySelectorAll('a').forEach(function(link){
+      link.addEventListener('click', function(){
+        menu.classList.remove('open');
+        btn.setAttribute('aria-expanded', 'false');
+        menu.setAttribute('aria-hidden', 'true');
+      });
+    });
+  })();
   </script>
  </body>
 </html>

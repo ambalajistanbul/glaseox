@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://glaseox.vercel.app/sitemap.xml
+Sitemap: https://glaseox.com/sitemap.xml

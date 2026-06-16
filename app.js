@@ -10,10 +10,22 @@ const UI_TRANSLATIONS = {
       "home": "Home",
       "products": "Products",
       "categories": "Categories",
-      "about": "About",
+      "about": "About Us",
       "contact": "Contact",
       "requestQuote": "Request Quote",
-      "catalog": "Download Catalog"
+      "catalog": "Catalog",
+      "downloadCatalog": "Download Catalog",
+      "faq": "FAQ",
+      "cat_all": "All",
+      "cat_bottles": "Bottles",
+      "cat_caps": "Caps",
+      "cat_pumps": "Pumps",
+      "cat_sets": "Mini Sets",
+      "cat_diffusers": "Diffusers",
+      "cat_sprays": "Sprays",
+      "cat_jars": "Jars",
+      "cat_serum": "Serum",
+      "cat_car": "Car Perfumes"
     },
     "brand": {
       "name": "Glaseox",
@@ -105,7 +117,7 @@ const UI_TRANSLATIONS = {
     },
     "about": {
       "title": "Leading Global Manufacturer of Glass Packaging",
-      "p1": "Glaseox has been a trusted name in the perfume and cosmetics packaging industry for over 15 years. From our state-of-the-art facility, we manufacture and export premium glass bottles, caps, pumps, diffusers and accessories to more than 60 countries worldwide.",
+      "p1": "Glaseox has been a trusted name in the perfume and cosmetics packaging industry for over 18 years. From our state-of-the-art facility, we manufacture and export premium glass bottles, caps, pumps, diffusers and accessories to more than 60 countries worldwide.",
       "p2": "Our commitment to quality, design excellence and reliable delivery has made us the partner of choice for hundreds of fragrance brands — from niche artisan houses to the world's leading global perfume labels.",
       "p3": "With 430+ products across 8 specialised lines, we offer the widest catalogue in the industry. Every product is crafted with care, inspected with precision and shipped with full documentation.",
       "features": [
@@ -127,6 +139,7 @@ const UI_TRANSLATIONS = {
         }
       ]
     },
+
     "benefits": {
       "title": "Why Brands Choose Glaseox",
       "subtitle": "The trusted partner behind 500+ successful fragrance brands worldwide."
@@ -227,10 +240,22 @@ const UI_TRANSLATIONS = {
       "home": "Acasă",
       "products": "Produse",
       "categories": "Categorii",
-      "about": "Despre noi",
+      "about": "Despre Noi",
       "contact": "Contact",
       "requestQuote": "Cere ofertă",
-      "catalog": "Descarcă catalog"
+      "catalog": "Catalog",
+      "downloadCatalog": "Descarcă catalog",
+      "faq": "Întrebări Frecvente",
+      "cat_all": "Toate",
+      "cat_bottles": "Sticle",
+      "cat_caps": "Capace",
+      "cat_pumps": "Pompe",
+      "cat_sets": "Mini Seturi",
+      "cat_diffusers": "Difuzoare",
+      "cat_sprays": "Spray-uri",
+      "cat_jars": "Borcane",
+      "cat_serum": "Serum",
+      "cat_car": "Parfum Auto"
     },
     "brand": {
       "name": "Glaseox",
@@ -322,7 +347,7 @@ const UI_TRANSLATIONS = {
     },
     "about": {
       "title": "Producător global lider de ambalaje din sticlă",
-      "p1": "Glaseox este un nume de încredere în industria ambalajelor de parfum și cosmetice de peste 15 ani. Din unitatea noastră de ultimă generație, producem și exportăm sticle de sticlă, capace, pompe, difuzoare și accesorii premium către peste 60 de țări din întreaga lume.",
+      "p1": "Glaseox este un nume de încredere în industria ambalajelor de parfum și cosmetice de peste 18 ani. Din unitatea noastră de ultimă generație, producem și exportăm sticle de sticlă, capace, pompe, difuzoare și accesorii premium către peste 60 de țări din întreaga lume.",
       "p2": "Angajamentul nostru pentru calitate, excelență în design și livrare fiabilă ne-a făcut partenerul preferat pentru sute de branduri de parfumuri — de la case artizanale nișate la cele mai importante branduri globale.",
       "p3": "Cu 430+ produse în 8 linii specializate, oferim cel mai larg catalog din industrie. Fiecare produs este creat cu grijă, inspectat cu precizie și expediat cu documentație completă.",
       "features": [
@@ -344,6 +369,7 @@ const UI_TRANSLATIONS = {
         }
       ]
     },
+
     "benefits": {
       "title": "De ce brandurile aleg Glaseox",
       "subtitle": "Partenerul de încredere din spatele a 500+ branduri de parfumuri de succes la nivel mondial."
@@ -447,7 +473,19 @@ const UI_TRANSLATIONS = {
       "about": "О нас",
       "contact": "Контакты",
       "requestQuote": "Запросить КП",
-      "catalog": "Скачать каталог"
+      "catalog": "Каталог",
+      "downloadCatalog": "Скачать каталог",
+      "faq": "Вопросы и ответы",
+      "cat_all": "Все",
+      "cat_bottles": "Флаконы",
+      "cat_caps": "Крышки",
+      "cat_pumps": "Помпы",
+      "cat_sets": "Мини-сеты",
+      "cat_diffusers": "Диффузоры",
+      "cat_sprays": "Спреи",
+      "cat_jars": "Баночки",
+      "cat_serum": "Сыворотки",
+      "cat_car": "Для авто"
     },
     "brand": {
       "name": "Glaseox",
@@ -539,7 +577,7 @@ const UI_TRANSLATIONS = {
     },
     "about": {
       "title": "Ведущий мировой производитель стеклянной упаковки",
-      "p1": "Glaseox — надёжное имя в индустрии парфюмерной и косметической упаковки уже более 15 лет. С нашего современного предприятия мы производим и экспортируем премиальные стеклянные флаконы, колпачки, помпы, диффузоры и аксессуары в более чем 60 стран мира.",
+      "p1": "Glaseox — надёжное имя в индустрии парфюмерной и косметической упаковки уже более 18 лет. С нашего современного предприятия мы производим и экспортируем премиальные стеклянные флаконы, колпачки, помпы, диффузоры и аксессуары в более чем 60 стран мира.",
       "p2": "Наша приверженность качеству, дизайну и надёжным поставкам сделала нас партнёром выбора для сотен парфюмерных брендов — от нишевых ремесленных домов до ведущих мировых парфюмерных брендов.",
       "p3": "Более 430 товаров в 8 специализированных линейках — у нас самый широкий каталог в отрасли. Каждый продукт создан с заботой, проверен с точностью и отправлен с полной документацией.",
       "features": [
@@ -561,6 +599,7 @@ const UI_TRANSLATIONS = {
         }
       ]
     },
+
     "benefits": {
       "title": "Почему бренды выбирают Glaseox",
       "subtitle": "Надёжный партнёр для 500+ успешных парфюмерных брендов по всему миру."
@@ -843,7 +882,8 @@ const state = {
   category: 'all',
   searchQuery: '',
   loadedCount: 24,
-  itemsPerBatch: 24
+  itemsPerBatch: 24,
+  lastActiveElement: null
 };
 
 // DOM Elements cache
@@ -881,16 +921,16 @@ function initDOMElements() {
 
 // Category mappings
 const categoriesMap = [
-  { slug: "all", tr: "Tüm Ürünler", en: "All Products", ru: "Все Продукты", ro: "Toate Produsele", icon: "./images/catalogue.svg" },
-  { slug: "parfum-siseleri", tr: "Parfüm Şişeleri", en: "Perfume Bottles", ru: "Флаконы для духов", ro: "Sticle de Parfum", icon: "./images/parfume.svg" },
-  { slug: "parfum-kapaklari", tr: "Parfüm Kapakları", en: "Perfume Caps", ru: "Крышки для духов", ro: "Capace de Parfum", icon: "./images/cap.svg" },
-  { slug: "pompa-bilezik", tr: "Pompa & Bilezik", en: "Pumps & Collars", ru: "Помпы и воротнички", ro: "Pompe și Gulerase", icon: "./images/collar.svg" },
-  { slug: "mini-set", tr: "Mini Set", en: "Mini Sets", ru: "Мини-наборы", ro: "Mini Seturi", icon: "./images/msnsset.svg" },
-  { slug: "difuzor", tr: "Difüzör", en: "Diffuser Bottles", ru: "Диффузоры", ro: "Difuzoare", icon: "./images/room.svg" },
-  { slug: "plastik-spreyler", tr: "Plastik Spreyler", en: "Plastic Sprays", ru: "Пластиковые спреи", ro: "Spray-uri din Plastic", icon: "./images/spray.svg" },
-  { slug: "krem-kavanozlari", tr: "Krem Kavanozları", en: "Cream Jars", ru: "Баночки для крема", ro: "Borcane de Cremă", icon: "./images/bottlepainting.svg" },
-  { slug: "serum-siseleri", tr: "Serum Şişeleri", en: "Serum Bottles", ru: "Флаконы для сыворотки", ro: "Sticle de Serum", icon: "./images/oil.svg" },
-  { slug: "arac-koku-sisesi", tr: "Araç Koku Şişesi", en: "Car Air Freshener Bottles", ru: "Автомобильные флаконы", ro: "Sticle de Parfum Auto", icon: "./images/car.svg" }
+  { slug: "all", tr: "Tüm Ürünler", en: "All Products", ru: "Все Продукты", ro: "Toate Produsele", icon: "./images/catalogue.svg", nav: { en: "All", ru: "Все", ro: "Toate", tr: "Tümü" } },
+  { slug: "parfum-siseleri", tr: "Parfüm Şişeleri", en: "Perfume Bottles", ru: "Флаконы для духов", ro: "Sticle de Parfum", icon: "./images/parfume.svg", nav: { en: "Bottles", ru: "Флаконы", ro: "Sticle", tr: "Şişeler" } },
+  { slug: "parfum-kapaklari", tr: "Parfüm Kapakları", en: "Perfume Caps", ru: "Крышки для духов", ro: "Capace de Parfum", icon: "./images/cap.svg", nav: { en: "Caps", ru: "Крышки", ro: "Capace", tr: "Kapaklar" } },
+  { slug: "pompa-bilezik", tr: "Pompa & Bilezik", en: "Pumps & Collars", ru: "Помпы и воротнички", ro: "Pompe și Gulerase", icon: "./images/collar.svg", nav: { en: "Pumps", ru: "Помпы", ro: "Pompe", tr: "Pompalar" } },
+  { slug: "mini-set", tr: "Mini Set", en: "Mini Sets", ru: "Мини-наборы", ro: "Mini Seturi", icon: "./images/msnsset.svg", nav: { en: "Mini Sets", ru: "Мини-сеты", ro: "Mini Seturi", tr: "Mini Setler" } },
+  { slug: "difuzor", tr: "Difüzör", en: "Diffuser Bottles", ru: "Диффузоры", ro: "Difuzoare", icon: "./images/room.svg", nav: { en: "Diffusers", ru: "Диффузоры", ro: "Difuzoare", tr: "Difüzörler" } },
+  { slug: "plastik-spreyler", tr: "Plastik Spreyler", en: "Plastic Sprays", ru: "Пластиковые спреи", ro: "Spray-uri din Plastic", icon: "./images/spray.svg", nav: { en: "Sprays", ru: "Спреи", ro: "Spray-uri", tr: "Spreyler" } },
+  { slug: "krem-kavanozlari", tr: "Krem Kavanozları", en: "Cream Jars", ru: "Баночки для крема", ro: "Borcane de Cremă", icon: "./images/bottlepainting.svg", nav: { en: "Jars", ru: "Баночки", ro: "Borcane", tr: "Kavanozlar" } },
+  { slug: "serum-siseleri", tr: "Serum Şişeleri", en: "Serum Bottles", ru: "Флаконы для сыворотки", ro: "Sticle de Serum", icon: "./images/oil.svg", nav: { en: "Serum", ru: "Сыворотки", ro: "Serum", tr: "Serum" } },
+  { slug: "arac-koku-sisesi", tr: "Araç Koku Şişesi", en: "Car Air Freshener Bottles", ru: "Автомобильные флаконы", ro: "Sticle de Parfum Auto", icon: "./images/car.svg", nav: { en: "Car Perfumes", ru: "Для авто", ro: "Parfum Auto", tr: "Oto Koku" } }
 ];
 
 // Document loaded handler
@@ -925,14 +965,39 @@ document.addEventListener('DOMContentLoaded', () => {
       const browserLang = (navigator.language || navigator.userLanguage || '').substring(0, 2).toLowerCase();
       
       const supportedLangs = ['en', 'ru', 'ro'];
+      let detectedLang = 'en';
       
       if (urlLang && supportedLangs.includes(urlLang.toLowerCase())) {
-        initialLang = urlLang.toLowerCase();
+        detectedLang = urlLang.toLowerCase();
       } else if (storedLang && supportedLangs.includes(storedLang.toLowerCase())) {
-        initialLang = storedLang.toLowerCase();
+        detectedLang = storedLang.toLowerCase();
       } else if (browserLang && supportedLangs.includes(browserLang)) {
-        initialLang = browserLang;
+        detectedLang = browserLang;
       }
+      
+      if (detectedLang !== 'en') {
+        const isLocalFile = window.location.protocol === 'file:';
+        if (isLocalFile) {
+          window.location.href = './' + detectedLang + '/index.html';
+          return; // Stop initialization
+        } else {
+          let basePath = pathname;
+          if (basePath.endsWith('/index.html')) {
+            basePath = basePath.slice(0, -10);
+          }
+          let targetPath = basePath;
+          if (!targetPath.endsWith('/')) {
+            targetPath += '/';
+          }
+          targetPath += detectedLang + '/';
+          const newUrl = new URL(window.location.href);
+          newUrl.pathname = targetPath;
+          newUrl.search = '';
+          window.location.href = newUrl.toString();
+          return; // Stop initialization
+        }
+      }
+      initialLang = 'en';
     }
   } catch (e) {
     console.error("Language detection failed, using fallback:", e);
@@ -982,6 +1047,25 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }, 100);
   });
+
+  // Hamburger Menu overlay toggle
+  const hamburgerBtn = document.getElementById('hamburger-btn');
+  const mobileMenu = document.getElementById('mobile-menu');
+  if (hamburgerBtn && mobileMenu) {
+    hamburgerBtn.addEventListener('click', () => {
+      const isOpen = mobileMenu.classList.toggle('open');
+      hamburgerBtn.setAttribute('aria-expanded', isOpen);
+      mobileMenu.setAttribute('aria-hidden', !isOpen);
+    });
+
+    // Close mobile menu when clicking a link
+    mobileMenu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.remove('open');
+        hamburgerBtn.setAttribute('aria-expanded', 'false');
+      });
+    });
+  }
 });
 
 // Setup language buttons
@@ -995,7 +1079,7 @@ function setupLanguageSwitcher() {
       const isLocalFile = window.location.protocol === 'file:';
       
       // Check current subfolder state
-      let currentFolder = '';
+      let currentFolder = 'en';
       if (pathname.includes('/ru/') || pathname.endsWith('/ru') || pathname.endsWith('/ru/index.html')) {
         currentFolder = 'ru';
       } else if (pathname.includes('/ro/') || pathname.endsWith('/ro') || pathname.endsWith('/ro/index.html')) {
@@ -1016,14 +1100,9 @@ function setupLanguageSwitcher() {
       if (isLocalFile) {
         // Local file redirection
         let newUrl = '';
-        if (currentFolder === '') {
+        if (currentFolder === 'en') {
           // Root -> subfolder
-          if (selectedLang === 'en') {
-            setLanguage('en');
-            return;
-          } else {
-            newUrl = './' + selectedLang + '/index.html';
-          }
+          newUrl = './' + selectedLang + '/index.html';
         } else {
           // Subfolder -> root or other subfolder
           if (selectedLang === 'en') {
@@ -1037,7 +1116,7 @@ function setupLanguageSwitcher() {
         // Web server redirection
         // Get base path (everything before /ru/ or /ro/ or at the end)
         let basePath = pathname;
-        if (currentFolder !== '') {
+        if (currentFolder !== 'en') {
           // Remove the language folder from the pathname
           basePath = pathname.replace(new RegExp('\\/' + currentFolder + '(\\/|$|\\/index\\.html)'), '/');
         }
@@ -1054,7 +1133,11 @@ function setupLanguageSwitcher() {
           targetPath += selectedLang + '/';
         }
         
-        window.location.pathname = targetPath;
+        // Construct new URL without search params to prevent carrying over ?lang=ru
+        const newUrl = new URL(window.location.href);
+        newUrl.pathname = targetPath;
+        newUrl.search = '';
+        window.location.href = newUrl.toString();
       }
     });
   });
@@ -1064,16 +1147,7 @@ function setLanguage(lang) {
   state.lang = lang;
   localStorage.setItem('glaseox-lang', lang);
   
-  // Sync URL parameter silently (preserve existing other parameters if any)
-  try {
-    const url = new URL(window.location.href);
-    if (url.searchParams.get('lang') !== lang) {
-      url.searchParams.set('lang', lang);
-      window.history.replaceState({}, '', url.toString());
-    }
-  } catch (e) {
-    console.error("Failed to sync URL language parameter:", e);
-  }
+  // URL parameters sync disabled to keep clean URL structure
   
   // Update buttons state
   elements.langBtns.forEach(btn => {
@@ -1152,13 +1226,13 @@ function setLanguage(lang) {
     const locales = { en: 'en_US', ru: 'ru_RU', ro: 'ro_RO' };
     setMetaTag('og:locale', locales[lang] || 'en_US');
     setMetaTag('og:type', 'website');
-    setMetaTag('og:image', 'https://glaseox.vercel.app/urunler.jpg');
+    setMetaTag('og:image', 'https://glaseox.com/urunler.jpg');
     
     // Twitter Card
     setMetaTag('twitter:card', 'summary_large_image', 'name');
     setMetaTag('twitter:title', currentTitle, 'name');
     setMetaTag('twitter:description', currentDesc, 'name');
-    setMetaTag('twitter:image', 'https://glaseox.vercel.app/urunler.jpg', 'name');
+    setMetaTag('twitter:image', 'https://glaseox.com/urunler.jpg', 'name');
   } catch (e) {
     console.error("SEO URL compilation failed:", e);
   }
@@ -1225,11 +1299,11 @@ function setLanguage(lang) {
       "@graph": [
         {
           "@type": "Organization",
-          "@id": "https://glaseox.vercel.app/#organization",
+          "@id": "https://glaseox.com/#organization",
           "name": "Glaseox",
-          "url": "https://glaseox.vercel.app/",
-          "logo": "https://glaseox.vercel.app/logo.svg",
-          "image": "https://glaseox.vercel.app/urunler.jpg",
+          "url": "https://glaseox.com/",
+          "logo": "https://glaseox.com/logo.svg",
+          "image": "https://glaseox.com/urunler.jpg",
           "email": "ambalajistanbul@gmail.com",
           "description": currentDesc,
           "contactPoint": [
@@ -1245,36 +1319,36 @@ function setLanguage(lang) {
             "addressLocality": "Istanbul",
             "addressRegion": "Istanbul",
             "addressCountry": "TR",
-            "streetAddress": "Istanbul"
+            "streetAddress": "Merter, Istanbul"
           }
         },
         {
           "@type": "WebSite",
-          "@id": "https://glaseox.vercel.app/#website",
-          "url": "https://glaseox.vercel.app/",
+          "@id": "https://glaseox.com/#website",
+          "url": "https://glaseox.com/",
           "name": currentTitle,
           "publisher": {
-            "@id": "https://glaseox.vercel.app/#organization"
+            "@id": "https://glaseox.com/#organization"
           },
           "potentialAction": [
             {
               "@type": "SearchAction",
-              "target": "https://glaseox.vercel.app/?q={search_term_string}",
+              "target": "https://glaseox.com/?q={search_term_string}",
               "query-input": "required name=search_term_string"
             }
           ]
         },
         {
           "@type": "ItemList",
-          "@id": "https://glaseox.vercel.app/#catalog-list",
+          "@id": "https://glaseox.com/#catalog-list",
           "name": lang === 'ru' ? "Каталог премиальной стеклянной упаковки Glaseox" : (lang === 'ro' ? "Catalog de Ambalaje Premium din Sticlă Glaseox" : "Glaseox Premium Glass Packaging Catalog"),
-          "url": "https://glaseox.vercel.app/#catalog",
+          "url": "https://glaseox.com/#catalog",
           "numberOfItems": 430,
           "itemListElement": (productSchemas[lang] || productSchemas['en']).map((prod, index) => {
             const images = [
-              "https://glaseox.vercel.app/images/parfum-siseleri/1.jpg",
-              "https://glaseox.vercel.app/images/parfum-kapaklari/1.jpg",
-              "https://glaseox.vercel.app/images/pompa-bilezik/1.jpg"
+              "https://glaseox.com/images/parfum-siseleri/1.jpg",
+              "https://glaseox.com/images/parfum-kapaklari/1.jpg",
+              "https://glaseox.com/images/pompa-bilezik/1.jpg"
             ];
             const offersCount = [100, 50, 40];
             const prices = ["0.10", "0.05", "0.03"];
@@ -1304,7 +1378,7 @@ function setLanguage(lang) {
   
   // Re-render categories, products, and custom B2B sections to apply language swap
   renderCategories();
-  renderHeaderDropdown();
+  renderHeaderNavMenu();
   renderProducts(true);
   renderAboutFeatures();
   renderTestimonials();
@@ -1360,7 +1434,7 @@ function renderCategories() {
       state.category = cat.slug;
       
       // Update header category links active state too
-      renderHeaderDropdown();
+      renderHeaderNavMenu();
       
       // Update form select selection using the English category name to match option value
       const selectProduct = document.getElementById('contact-product');
@@ -1385,90 +1459,79 @@ function renderCategories() {
   });
 }
 
-// Render premium header categories dropdown menu and button
-function renderHeaderDropdown() {
-  const dropdownMenu = document.getElementById('header-categories-dropdown');
-  if (!dropdownMenu) return;
+// Render premium header categories navigation menu (both desktop and mobile)
+function renderHeaderNavMenu() {
+  const navMenu = document.getElementById('header-nav-menu');
+  const mobileNavMenu = document.querySelector('.mobile-nav-links');
   
-  dropdownMenu.innerHTML = '';
-  
-  // Find active category info
-  const activeCat = categoriesMap.find(cat => cat.slug === state.category) || categoriesMap[0];
-  
-  // Update button label and icon
-  const btnLabel = document.getElementById('dropdown-btn-label');
-  if (btnLabel) {
-    btnLabel.textContent = activeCat[state.lang] || activeCat['en'];
-  }
-  
-  const btnIcon = document.getElementById('dropdown-btn-icon');
-  if (btnIcon) {
-    btnIcon.src = resolveAssetPath(activeCat.icon);
-    btnIcon.alt = activeCat[state.lang] || activeCat['en'];
-  }
-  
-  const allData = window.PRODUCTS_DATA || [];
+  if (navMenu) navMenu.innerHTML = '';
+  if (mobileNavMenu) mobileNavMenu.innerHTML = '';
   
   categoriesMap.forEach(cat => {
-    // Count products dynamically
-    let count = 0;
-    if (cat.slug === 'all') {
-      count = allData.length;
-    } else {
-      count = allData.filter(item => item.category_tr === cat.tr).length;
+    // Determine translated label
+    let label = cat.nav ? (cat.nav[state.lang] || cat.nav['en']) : (cat[state.lang] || cat['en']);
+    
+    // Create Desktop Link
+    if (navMenu) {
+      const link = document.createElement('a');
+      link.href = '#catalog';
+      link.className = `nav-link ${state.category === cat.slug ? 'active' : ''}`;
+      link.textContent = label;
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        selectCategory(cat.slug);
+      });
+      navMenu.appendChild(link);
     }
     
-    const dropdownItem = document.createElement('button');
-    dropdownItem.className = `header-dropdown-item ${state.category === cat.slug ? 'active' : ''}`;
-    dropdownItem.setAttribute('role', 'menuitem');
-    dropdownItem.setAttribute('aria-label', `${cat[state.lang] || cat['en']} (${count} products)`);
-    
-    dropdownItem.innerHTML = `
-      <div class="header-dropdown-item-left">
-        <img src="${resolveAssetPath(cat.icon)}" alt="" class="header-dropdown-item-icon" loading="lazy">
-        <span class="header-dropdown-item-title">${cat[state.lang] || cat['en']}</span>
-      </div>
-      <span class="header-dropdown-item-count">${count}</span>
-    `;
-    
-    dropdownItem.addEventListener('click', (e) => {
-      e.preventDefault();
-      
-      // Update state
-      state.category = cat.slug;
-      
-      // Re-render components
-      renderCategories();
-      renderHeaderDropdown();
-      renderProducts(true);
-      
-      // Close dropdown
-      const container = document.getElementById('header-dropdown-container');
-      const btn = document.getElementById('header-categories-btn');
-      if (container && btn) {
-        container.classList.remove('open');
-        btn.setAttribute('aria-expanded', 'false');
-      }
-      
-      // Update form select selection
-      const selectProduct = document.getElementById('contact-product');
-      if (selectProduct) {
-        if (cat.slug === 'all') {
-          selectProduct.value = 'General Inquiry';
-        } else {
-          selectProduct.value = cat.en;
+    // Create Mobile Link
+    if (mobileNavMenu) {
+      const link = document.createElement('a');
+      link.href = '#catalog';
+      link.className = `mobile-nav-link ${state.category === cat.slug ? 'active' : ''}`;
+      link.textContent = label;
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        selectCategory(cat.slug);
+        // Close mobile menu
+        const hamburgerBtn = document.getElementById('hamburger-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        if (mobileMenu && hamburgerBtn) {
+          mobileMenu.classList.remove('open');
+          hamburgerBtn.setAttribute('aria-expanded', 'false');
+          mobileMenu.setAttribute('aria-hidden', 'true');
         }
-      }
-      
-      // Scroll to categories view section smoothly
-      const targetSec = document.getElementById('categories-nav');
-      if (targetSec) {
-        targetSec.scrollIntoView({ behavior: 'smooth' });
-      }
-    });
-    
-    dropdownMenu.appendChild(dropdownItem);
+      });
+      mobileNavMenu.appendChild(link);
+    }
   });
+}
+
+// Helper function to select category and refresh view
+function selectCategory(categorySlug) {
+  state.category = categorySlug;
+  renderCategories();
+  renderHeaderNavMenu();
+  renderProducts(true);
+  
+  // Update form select selection
+  const selectProduct = document.getElementById('contact-product');
+  if (selectProduct) {
+    const cat = categoriesMap.find(c => c.slug === categorySlug);
+    if (cat) {
+      if (cat.slug === 'all') {
+        selectProduct.value = 'General Inquiry';
+      } else {
+        selectProduct.value = cat.en;
+      }
+    }
+  }
+  
+  // Scroll to categories view section smoothly
+  const targetSec = document.getElementById('categories-nav');
+  if (targetSec) {
+    targetSec.scrollIntoView({ behavior: 'smooth' });
+  }
 }
 
 function setupCategoryFilters() {
@@ -1853,14 +1916,21 @@ function openProductModal(item) {
   });
   
   // Open modal
+  state.lastActiveElement = document.activeElement;
   elements.modalOverlay.classList.add('open');
   document.body.style.overflow = 'hidden'; // prevent page background scroll
+  if (elements.modalCloseBtn) {
+    elements.modalCloseBtn.focus();
+  }
 }
 
 function closeProductModal() {
   if (!elements.modalOverlay) return;
   elements.modalOverlay.classList.remove('open');
   document.body.style.overflow = '';
+  if (state.lastActiveElement) {
+    state.lastActiveElement.focus();
+  }
 }
 
 function setupModalHandlers() {
@@ -1967,7 +2037,7 @@ function setupFooterLinks() {
       
       // Update categories visual active state in categories navigation section
       renderCategories();
-      renderHeaderDropdown();
+      renderHeaderNavMenu();
       renderProducts(true);
       
       // Scroll to categories navigation section smoothly so indicator is visible
