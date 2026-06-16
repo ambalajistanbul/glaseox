@@ -103,14 +103,7 @@
               "name": "Premium Glass Perfume Bottles",
               "image": "https://glaseox.com/images/parfum-siseleri/1.jpg",
               "description": "High-quality wholesale glass perfume bottles in various sizes (30ml, 50ml, 100ml) and custom shapes.",
-              "category": "Perfume Bottles",
-              "offers": {
-                "@type": "AggregateOffer",
-                "priceCurrency": "USD",
-                "offerCount": 100,
-                "lowPrice": "0.10",
-                "highPrice": "2.00"
-              }
+              "category": "Perfume Bottles"
             }
           },
           {
@@ -121,14 +114,7 @@
               "name": "Luxury Perfume Caps",
               "image": "https://glaseox.com/images/parfum-kapaklari/1.jpg",
               "description": "Luxury metal, wooden, and plastic perfume caps for standard neck sizes.",
-              "category": "Perfume Caps",
-              "offers": {
-                "@type": "AggregateOffer",
-                "priceCurrency": "USD",
-                "offerCount": 50,
-                "lowPrice": "0.05",
-                "highPrice": "1.00"
-              }
+              "category": "Perfume Caps"
             }
           },
           {
@@ -139,14 +125,7 @@
               "name": "Perfume Pumps and Collars",
               "image": "https://glaseox.com/images/pompa-bilezik/1.jpg",
               "description": "Fine mist crimp and screw pumps with matching metal collars in gold, silver, and black.",
-              "category": "Pumps & Collars",
-              "offers": {
-                "@type": "AggregateOffer",
-                "priceCurrency": "USD",
-                "offerCount": 40,
-                "lowPrice": "0.03",
-                "highPrice": "0.50"
-              }
+              "category": "Pumps & Collars"
             }
           }
         ]
@@ -185,18 +164,60 @@
         </svg>
       </a>
       
-      <!-- Desktop Nav Links (app.js populate etmeye devam edebilir) -->
+      <!-- Desktop Nav Links -->
       <nav class="nav-menu" id="header-nav-menu" aria-label="Main navigation">
-        <a href="#catalog" class="nav-link" data-trans="nav.cat_all">All Products</a>
-        <a href="#catalog" class="nav-link" data-trans="nav.cat_bottles">Bottles</a>
-        <a href="#catalog" class="nav-link" data-trans="nav.cat_caps">Caps</a>
-        <a href="#catalog" class="nav-link" data-trans="nav.cat_pumps">Pumps</a>
-        <a href="#catalog" class="nav-link" data-trans="nav.cat_sets">Mini Sets</a>
-        <a href="#catalog" class="nav-link" data-trans="nav.cat_diffusers">Diffusers</a>
-        <a href="#catalog" class="nav-link" data-trans="nav.cat_sprays">Sprays</a>
-        <a href="#catalog" class="nav-link" data-trans="nav.cat_jars">Jars</a>
-        <a href="#catalog" class="nav-link" data-trans="nav.cat_serum">Serum</a>
-        <a href="#catalog" class="nav-link" data-trans="nav.cat_car">Car Perfumes</a>
+        <div class="nav-dropdown">
+          <button class="nav-link dropdown-trigger" aria-haspopup="true" aria-expanded="false">
+            <span data-trans="footer.products">Products</span>
+            <svg class="dropdown-chevron" viewBox="0 0 24 24" aria-hidden="true" width="14" height="14">
+              <path d="M7 10l5 5 5-5H7z"/>
+            </svg>
+          </button>
+          <div class="dropdown-menu" role="menu">
+            <a href="#catalog" class="dropdown-item" data-category="all" role="menuitem">
+              <img src="./images/catalogue.svg" alt="" aria-hidden="true">
+              <span data-trans="nav.cat_all">All Products</span>
+            </a>
+            <a href="#catalog" class="dropdown-item" data-category="parfum-siseleri" role="menuitem">
+              <img src="./images/parfume.svg" alt="" aria-hidden="true">
+              <span data-trans="nav.cat_bottles">Perfume Bottles</span>
+            </a>
+            <a href="#catalog" class="dropdown-item" data-category="parfum-kapaklari" role="menuitem">
+              <img src="./images/cap.svg" alt="" aria-hidden="true">
+              <span data-trans="nav.cat_caps">Perfume Caps</span>
+            </a>
+            <a href="#catalog" class="dropdown-item" data-category="pompa-bilezik" role="menuitem">
+              <img src="./images/collar.svg" alt="" aria-hidden="true">
+              <span data-trans="nav.cat_pumps">Pumps & Collars</span>
+            </a>
+            <a href="#catalog" class="dropdown-item" data-category="mini-set" role="menuitem">
+              <img src="./images/msnsset.svg" alt="" aria-hidden="true">
+              <span data-trans="nav.cat_sets">Mini Sets</span>
+            </a>
+            <a href="#catalog" class="dropdown-item" data-category="difuzor" role="menuitem">
+              <img src="./images/room.svg" alt="" aria-hidden="true">
+              <span data-trans="nav.cat_diffusers">Diffuser Bottles</span>
+            </a>
+            <a href="#catalog" class="dropdown-item" data-category="plastik-spreyler" role="menuitem">
+              <img src="./images/spray.svg" alt="" aria-hidden="true">
+              <span data-trans="nav.cat_sprays">Plastic Sprays</span>
+            </a>
+            <a href="#catalog" class="dropdown-item" data-category="krem-kavanozlari" role="menuitem">
+              <img src="./images/bottlepainting.svg" alt="" aria-hidden="true">
+              <span data-trans="nav.cat_jars">Cream Jars</span>
+            </a>
+            <a href="#catalog" class="dropdown-item" data-category="serum-siseleri" role="menuitem">
+              <img src="./images/oil.svg" alt="" aria-hidden="true">
+              <span data-trans="nav.cat_serum">Serum Bottles</span>
+            </a>
+            <a href="#catalog" class="dropdown-item" data-category="arac-koku-sisesi" role="menuitem">
+              <img src="./images/car.svg" alt="" aria-hidden="true">
+              <span data-trans="nav.cat_car">Car Perfumes</span>
+            </a>
+          </div>
+        </div>
+        <a href="#about" class="nav-link" data-trans="footer.about">About us</a>
+        <a href="#contact" class="nav-link" data-trans="footer.contact">Contact</a>
       </nav>
       
       <div class="nav-right">
@@ -226,18 +247,56 @@
 
     <!-- Mobile Menu Dropdown Overlay -->
     <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+      <div class="mobile-menu-section-title" data-trans="footer.categories">Product Lines</div>
       <nav class="mobile-nav-links">
-        <a href="#catalog" data-trans="nav.cat_all">All Products</a>
-        <a href="#catalog" data-trans="nav.cat_bottles">Bottles</a>
-        <a href="#catalog" data-trans="nav.cat_caps">Caps</a>
-        <a href="#catalog" data-trans="nav.cat_pumps">Pumps</a>
-        <a href="#catalog" data-trans="nav.cat_sets">Mini Sets</a>
-        <a href="#catalog" data-trans="nav.cat_diffusers">Diffusers</a>
-        <a href="#catalog" data-trans="nav.cat_sprays">Sprays</a>
-        <a href="#catalog" data-trans="nav.cat_jars">Jars</a>
-        <a href="#catalog" data-trans="nav.cat_serum">Serum</a>
-        <a href="#catalog" data-trans="nav.cat_car">Car Perfumes</a>
+        <a href="#catalog" class="mobile-nav-link" data-category="all">
+          <img src="./images/catalogue.svg" alt="" aria-hidden="true" class="mobile-nav-icon">
+          <span data-trans="nav.cat_all">All Products</span>
+        </a>
+        <a href="#catalog" class="mobile-nav-link" data-category="parfum-siseleri">
+          <img src="./images/parfume.svg" alt="" aria-hidden="true" class="mobile-nav-icon">
+          <span data-trans="nav.cat_bottles">Perfume Bottles</span>
+        </a>
+        <a href="#catalog" class="mobile-nav-link" data-category="parfum-kapaklari">
+          <img src="./images/cap.svg" alt="" aria-hidden="true" class="mobile-nav-icon">
+          <span data-trans="nav.cat_caps">Perfume Caps</span>
+        </a>
+        <a href="#catalog" class="mobile-nav-link" data-category="pompa-bilezik">
+          <img src="./images/collar.svg" alt="" aria-hidden="true" class="mobile-nav-icon">
+          <span data-trans="nav.cat_pumps">Pumps & Collars</span>
+        </a>
+        <a href="#catalog" class="mobile-nav-link" data-category="mini-set">
+          <img src="./images/msnsset.svg" alt="" aria-hidden="true" class="mobile-nav-icon">
+          <span data-trans="nav.cat_sets">Mini Sets</span>
+        </a>
+        <a href="#catalog" class="mobile-nav-link" data-category="difuzor">
+          <img src="./images/room.svg" alt="" aria-hidden="true" class="mobile-nav-icon">
+          <span data-trans="nav.cat_diffusers">Diffuser Bottles</span>
+        </a>
+        <a href="#catalog" class="mobile-nav-link" data-category="plastik-spreyler">
+          <img src="./images/spray.svg" alt="" aria-hidden="true" class="mobile-nav-icon">
+          <span data-trans="nav.cat_sprays">Plastic Sprays</span>
+        </a>
+        <a href="#catalog" class="mobile-nav-link" data-category="krem-kavanozlari">
+          <img src="./images/bottlepainting.svg" alt="" aria-hidden="true" class="mobile-nav-icon">
+          <span data-trans="nav.cat_jars">Cream Jars</span>
+        </a>
+        <a href="#catalog" class="mobile-nav-link" data-category="serum-siseleri">
+          <img src="./images/oil.svg" alt="" aria-hidden="true" class="mobile-nav-icon">
+          <span data-trans="nav.cat_serum">Serum Bottles</span>
+        </a>
+        <a href="#catalog" class="mobile-nav-link" data-category="arac-koku-sisesi">
+          <img src="./images/car.svg" alt="" aria-hidden="true" class="mobile-nav-icon">
+          <span data-trans="nav.cat_car">Car Perfumes</span>
+        </a>
       </nav>
+      
+      <div class="mobile-menu-section-title" data-trans="footer.nav">Navigation</div>
+      <nav class="mobile-nav-links">
+        <a href="#about" class="mobile-nav-link" data-trans="footer.about">About us</a>
+        <a href="#contact" class="mobile-nav-link" data-trans="footer.contact">Contact</a>
+      </nav>
+      
       <div class="mobile-lang-selector">
         <button class="lang-btn" data-trans-lang="en" data-lang="en">EN</button>
         <button class="lang-btn" data-trans-lang="ru" data-lang="ru">RU</button>

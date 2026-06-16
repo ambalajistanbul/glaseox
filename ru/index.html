@@ -99,14 +99,7 @@
             "name": "Стеклянные флаконы для духов премиум-класса",
             "image": "https://glaseox.com/images/parfum-siseleri/1.jpg",
             "description": "Высококачественные стеклянные флаконы для духов оптом различных размеров (30 мл, 50 мл, 100 мл) и индивидуальных форм.",
-            "category": "Стеклянные флаконы",
-            "offers": {
-              "@type": "AggregateOffer",
-              "priceCurrency": "USD",
-              "offerCount": 100,
-              "lowPrice": "0.10",
-              "highPrice": "2.00"
-            }
+            "category": "Стеклянные флаконы"
           }
         },
         {
@@ -117,14 +110,7 @@
             "name": "Люксовые крышки для флаконов",
             "image": "https://glaseox.com/images/parfum-kapaklari/1.jpg",
             "description": "Роскошные металлические, деревянные и пластиковые крышки для флаконов стандартных размеров.",
-            "category": "Крышки",
-            "offers": {
-              "@type": "AggregateOffer",
-              "priceCurrency": "USD",
-              "offerCount": 50,
-              "lowPrice": "0.05",
-              "highPrice": "1.00"
-            }
+            "category": "Крышки"
           }
         },
         {
@@ -135,14 +121,7 @@
             "name": "Помпы и воротнички для духов",
             "image": "https://glaseox.com/images/pompa-bilezik/1.jpg",
             "description": "Распылители мелкого тумана (помпы под завальцовку и винтовые) с соответствующими металлическими воротничками золотого, серебряного и черного цветов.",
-            "category": "Помпы и воротнички",
-            "offers": {
-              "@type": "AggregateOffer",
-              "priceCurrency": "USD",
-              "offerCount": 40,
-              "lowPrice": "0.03",
-              "highPrice": "0.50"
-            }
+            "category": "Помпы и воротнички"
           }
         }
       ]
@@ -190,37 +169,86 @@
       </text>
      </svg>
     </a>
-    <!-- Desktop Nav Links (app.js populate etmeye devam edebilir) -->
+    <!-- Desktop Nav Links -->
     <nav aria-label="Main navigation" class="nav-menu" id="header-nav-menu">
-     <a class="nav-link" data-trans="nav.cat_all" href="#catalog">
-      Все
+     <div class="nav-dropdown">
+      <button aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-trigger">
+       <span data-trans="footer.products">
+        Продукция
+       </span>
+       <svg aria-hidden="true" class="dropdown-chevron" height="14" viewbox="0 0 24 24" width="14">
+        <path d="M7 10l5 5 5-5H7z">
+        </path>
+       </svg>
+      </button>
+      <div class="dropdown-menu" role="menu">
+       <a class="dropdown-item" data-category="all" href="#catalog" role="menuitem">
+        <img alt="" aria-hidden="true" src="../images/catalogue.svg"/>
+        <span data-trans="nav.cat_all">
+         Все
+        </span>
+       </a>
+       <a class="dropdown-item" data-category="parfum-siseleri" href="#catalog" role="menuitem">
+        <img alt="" aria-hidden="true" src="../images/parfume.svg"/>
+        <span data-trans="nav.cat_bottles">
+         Флаконы
+        </span>
+       </a>
+       <a class="dropdown-item" data-category="parfum-kapaklari" href="#catalog" role="menuitem">
+        <img alt="" aria-hidden="true" src="../images/cap.svg"/>
+        <span data-trans="nav.cat_caps">
+         Крышки
+        </span>
+       </a>
+       <a class="dropdown-item" data-category="pompa-bilezik" href="#catalog" role="menuitem">
+        <img alt="" aria-hidden="true" src="../images/collar.svg"/>
+        <span data-trans="nav.cat_pumps">
+         Помпы
+        </span>
+       </a>
+       <a class="dropdown-item" data-category="mini-set" href="#catalog" role="menuitem">
+        <img alt="" aria-hidden="true" src="../images/msnsset.svg"/>
+        <span data-trans="nav.cat_sets">
+         Мини-сеты
+        </span>
+       </a>
+       <a class="dropdown-item" data-category="difuzor" href="#catalog" role="menuitem">
+        <img alt="" aria-hidden="true" src="../images/room.svg"/>
+        <span data-trans="nav.cat_diffusers">
+         Диффузоры
+        </span>
+       </a>
+       <a class="dropdown-item" data-category="plastik-spreyler" href="#catalog" role="menuitem">
+        <img alt="" aria-hidden="true" src="../images/spray.svg"/>
+        <span data-trans="nav.cat_sprays">
+         Спреи
+        </span>
+       </a>
+       <a class="dropdown-item" data-category="krem-kavanozlari" href="#catalog" role="menuitem">
+        <img alt="" aria-hidden="true" src="../images/bottlepainting.svg"/>
+        <span data-trans="nav.cat_jars">
+         Баночки
+        </span>
+       </a>
+       <a class="dropdown-item" data-category="serum-siseleri" href="#catalog" role="menuitem">
+        <img alt="" aria-hidden="true" src="../images/oil.svg"/>
+        <span data-trans="nav.cat_serum">
+         Сыворотки
+        </span>
+       </a>
+       <a class="dropdown-item" data-category="arac-koku-sisesi" href="#catalog" role="menuitem">
+        <img alt="" aria-hidden="true" src="../images/car.svg"/>
+        <span data-trans="nav.cat_car">
+         Для авто
+        </span>
+       </a>
+      </div>
+     </div>
+     <a class="nav-link" data-trans="footer.about" href="#about">
+      О нас
      </a>
-     <a class="nav-link" data-trans="nav.cat_bottles" href="#catalog">
-      Флаконы
-     </a>
-     <a class="nav-link" data-trans="nav.cat_caps" href="#catalog">
-      Крышки
-     </a>
-     <a class="nav-link" data-trans="nav.cat_pumps" href="#catalog">
-      Помпы
-     </a>
-     <a class="nav-link" data-trans="nav.cat_sets" href="#catalog">
-      Мини-сеты
-     </a>
-     <a class="nav-link" data-trans="nav.cat_diffusers" href="#catalog">
-      Диффузоры
-     </a>
-     <a class="nav-link" data-trans="nav.cat_sprays" href="#catalog">
-      Спреи
-     </a>
-     <a class="nav-link" data-trans="nav.cat_jars" href="#catalog">
-      Баночки
-     </a>
-     <a class="nav-link" data-trans="nav.cat_serum" href="#catalog">
-      Сыворотки
-     </a>
-     <a class="nav-link" data-trans="nav.cat_car" href="#catalog">
-      Для авто
+     <a class="nav-link" data-trans="footer.contact" href="#contact">
+      Контакты
      </a>
     </nav>
     <div class="nav-right">
@@ -259,36 +287,80 @@
    </div>
    <!-- Mobile Menu Dropdown Overlay -->
    <div aria-hidden="true" class="mobile-menu" id="mobile-menu">
+    <div class="mobile-menu-section-title" data-trans="footer.categories">
+     Product Lines
+    </div>
     <nav class="mobile-nav-links">
-     <a data-trans="nav.cat_all" href="#catalog">
-      Все
+     <a class="mobile-nav-link" data-category="all" href="#catalog">
+      <img alt="" aria-hidden="true" class="mobile-nav-icon" src="../images/catalogue.svg"/>
+      <span data-trans="nav.cat_all">
+       Все
+      </span>
      </a>
-     <a data-trans="nav.cat_bottles" href="#catalog">
-      Флаконы
+     <a class="mobile-nav-link" data-category="parfum-siseleri" href="#catalog">
+      <img alt="" aria-hidden="true" class="mobile-nav-icon" src="../images/parfume.svg"/>
+      <span data-trans="nav.cat_bottles">
+       Флаконы
+      </span>
      </a>
-     <a data-trans="nav.cat_caps" href="#catalog">
-      Крышки
+     <a class="mobile-nav-link" data-category="parfum-kapaklari" href="#catalog">
+      <img alt="" aria-hidden="true" class="mobile-nav-icon" src="../images/cap.svg"/>
+      <span data-trans="nav.cat_caps">
+       Крышки
+      </span>
      </a>
-     <a data-trans="nav.cat_pumps" href="#catalog">
-      Помпы
+     <a class="mobile-nav-link" data-category="pompa-bilezik" href="#catalog">
+      <img alt="" aria-hidden="true" class="mobile-nav-icon" src="../images/collar.svg"/>
+      <span data-trans="nav.cat_pumps">
+       Помпы
+      </span>
      </a>
-     <a data-trans="nav.cat_sets" href="#catalog">
-      Мини-сеты
+     <a class="mobile-nav-link" data-category="mini-set" href="#catalog">
+      <img alt="" aria-hidden="true" class="mobile-nav-icon" src="../images/msnsset.svg"/>
+      <span data-trans="nav.cat_sets">
+       Мини-сеты
+      </span>
      </a>
-     <a data-trans="nav.cat_diffusers" href="#catalog">
-      Диффузоры
+     <a class="mobile-nav-link" data-category="difuzor" href="#catalog">
+      <img alt="" aria-hidden="true" class="mobile-nav-icon" src="../images/room.svg"/>
+      <span data-trans="nav.cat_diffusers">
+       Диффузоры
+      </span>
      </a>
-     <a data-trans="nav.cat_sprays" href="#catalog">
-      Спреи
+     <a class="mobile-nav-link" data-category="plastik-spreyler" href="#catalog">
+      <img alt="" aria-hidden="true" class="mobile-nav-icon" src="../images/spray.svg"/>
+      <span data-trans="nav.cat_sprays">
+       Спреи
+      </span>
      </a>
-     <a data-trans="nav.cat_jars" href="#catalog">
-      Баночки
+     <a class="mobile-nav-link" data-category="krem-kavanozlari" href="#catalog">
+      <img alt="" aria-hidden="true" class="mobile-nav-icon" src="../images/bottlepainting.svg"/>
+      <span data-trans="nav.cat_jars">
+       Баночки
+      </span>
      </a>
-     <a data-trans="nav.cat_serum" href="#catalog">
-      Сыворотки
+     <a class="mobile-nav-link" data-category="serum-siseleri" href="#catalog">
+      <img alt="" aria-hidden="true" class="mobile-nav-icon" src="../images/oil.svg"/>
+      <span data-trans="nav.cat_serum">
+       Сыворотки
+      </span>
      </a>
-     <a data-trans="nav.cat_car" href="#catalog">
-      Для авто
+     <a class="mobile-nav-link" data-category="arac-koku-sisesi" href="#catalog">
+      <img alt="" aria-hidden="true" class="mobile-nav-icon" src="../images/car.svg"/>
+      <span data-trans="nav.cat_car">
+       Для авто
+      </span>
+     </a>
+    </nav>
+    <div class="mobile-menu-section-title" data-trans="footer.nav">
+     Navigation
+    </div>
+    <nav class="mobile-nav-links">
+     <a class="mobile-nav-link" data-trans="footer.about" href="#about">
+      О нас
+     </a>
+     <a class="mobile-nav-link" data-trans="footer.contact" href="#contact">
+      Контакты
      </a>
     </nav>
     <div class="mobile-lang-selector">

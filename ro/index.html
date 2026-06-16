@@ -99,14 +99,7 @@
             "name": "Sticle de Parfum Premium din Sticlă",
             "image": "https://glaseox.com/images/parfum-siseleri/1.jpg",
             "description": "Sticle de parfum din sticlă de înaltă calitate en-gros, în diverse dimensiuni (30ml, 50ml, 100ml) și forme personalizate.",
-            "category": "Sticle de parfum",
-            "offers": {
-              "@type": "AggregateOffer",
-              "priceCurrency": "USD",
-              "offerCount": 100,
-              "lowPrice": "0.10",
-              "highPrice": "2.00"
-            }
+            "category": "Sticle de parfum"
           }
         },
         {
@@ -117,14 +110,7 @@
             "name": "Capace de Lux pentru Parfumuri",
             "image": "https://glaseox.com/images/parfum-kapaklari/1.jpg",
             "description": "Capace de lux din metal, lemn și plastic pentru parfumuri, potrivite pentru gâturi de dimensiuni standard.",
-            "category": "Capace",
-            "offers": {
-              "@type": "AggregateOffer",
-              "priceCurrency": "USD",
-              "offerCount": 50,
-              "lowPrice": "0.05",
-              "highPrice": "1.00"
-            }
+            "category": "Capace"
           }
         },
         {
@@ -135,14 +121,7 @@
             "name": "Pompe și Gulere pentru Parfum",
             "image": "https://glaseox.com/images/pompa-bilezik/1.jpg",
             "description": "Pompe cu pulverizare fină, prin sertizare sau înfiletare, cu gulere metalice asortate în nuanțe de aur, argint și negru.",
-            "category": "Pompe și gulere",
-            "offers": {
-              "@type": "AggregateOffer",
-              "priceCurrency": "USD",
-              "offerCount": 40,
-              "lowPrice": "0.03",
-              "highPrice": "0.50"
-            }
+            "category": "Pompe și gulere"
           }
         }
       ]
@@ -190,37 +169,86 @@
       </text>
      </svg>
     </a>
-    <!-- Desktop Nav Links (app.js populate etmeye devam edebilir) -->
+    <!-- Desktop Nav Links -->
     <nav aria-label="Main navigation" class="nav-menu" id="header-nav-menu">
-     <a class="nav-link" data-trans="nav.cat_all" href="#catalog">
-      Toate
+     <div class="nav-dropdown">
+      <button aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-trigger">
+       <span data-trans="footer.products">
+        Produse
+       </span>
+       <svg aria-hidden="true" class="dropdown-chevron" height="14" viewbox="0 0 24 24" width="14">
+        <path d="M7 10l5 5 5-5H7z">
+        </path>
+       </svg>
+      </button>
+      <div class="dropdown-menu" role="menu">
+       <a class="dropdown-item" data-category="all" href="#catalog" role="menuitem">
+        <img alt="" aria-hidden="true" src="../images/catalogue.svg"/>
+        <span data-trans="nav.cat_all">
+         Toate
+        </span>
+       </a>
+       <a class="dropdown-item" data-category="parfum-siseleri" href="#catalog" role="menuitem">
+        <img alt="" aria-hidden="true" src="../images/parfume.svg"/>
+        <span data-trans="nav.cat_bottles">
+         Sticle
+        </span>
+       </a>
+       <a class="dropdown-item" data-category="parfum-kapaklari" href="#catalog" role="menuitem">
+        <img alt="" aria-hidden="true" src="../images/cap.svg"/>
+        <span data-trans="nav.cat_caps">
+         Capace
+        </span>
+       </a>
+       <a class="dropdown-item" data-category="pompa-bilezik" href="#catalog" role="menuitem">
+        <img alt="" aria-hidden="true" src="../images/collar.svg"/>
+        <span data-trans="nav.cat_pumps">
+         Pompe
+        </span>
+       </a>
+       <a class="dropdown-item" data-category="mini-set" href="#catalog" role="menuitem">
+        <img alt="" aria-hidden="true" src="../images/msnsset.svg"/>
+        <span data-trans="nav.cat_sets">
+         Mini Seturi
+        </span>
+       </a>
+       <a class="dropdown-item" data-category="difuzor" href="#catalog" role="menuitem">
+        <img alt="" aria-hidden="true" src="../images/room.svg"/>
+        <span data-trans="nav.cat_diffusers">
+         Difuzoare
+        </span>
+       </a>
+       <a class="dropdown-item" data-category="plastik-spreyler" href="#catalog" role="menuitem">
+        <img alt="" aria-hidden="true" src="../images/spray.svg"/>
+        <span data-trans="nav.cat_sprays">
+         Spray-uri
+        </span>
+       </a>
+       <a class="dropdown-item" data-category="krem-kavanozlari" href="#catalog" role="menuitem">
+        <img alt="" aria-hidden="true" src="../images/bottlepainting.svg"/>
+        <span data-trans="nav.cat_jars">
+         Borcane
+        </span>
+       </a>
+       <a class="dropdown-item" data-category="serum-siseleri" href="#catalog" role="menuitem">
+        <img alt="" aria-hidden="true" src="../images/oil.svg"/>
+        <span data-trans="nav.cat_serum">
+         Serum
+        </span>
+       </a>
+       <a class="dropdown-item" data-category="arac-koku-sisesi" href="#catalog" role="menuitem">
+        <img alt="" aria-hidden="true" src="../images/car.svg"/>
+        <span data-trans="nav.cat_car">
+         Parfum Auto
+        </span>
+       </a>
+      </div>
+     </div>
+     <a class="nav-link" data-trans="footer.about" href="#about">
+      Despre noi
      </a>
-     <a class="nav-link" data-trans="nav.cat_bottles" href="#catalog">
-      Sticle
-     </a>
-     <a class="nav-link" data-trans="nav.cat_caps" href="#catalog">
-      Capace
-     </a>
-     <a class="nav-link" data-trans="nav.cat_pumps" href="#catalog">
-      Pompe
-     </a>
-     <a class="nav-link" data-trans="nav.cat_sets" href="#catalog">
-      Mini Seturi
-     </a>
-     <a class="nav-link" data-trans="nav.cat_diffusers" href="#catalog">
-      Difuzoare
-     </a>
-     <a class="nav-link" data-trans="nav.cat_sprays" href="#catalog">
-      Spray-uri
-     </a>
-     <a class="nav-link" data-trans="nav.cat_jars" href="#catalog">
-      Borcane
-     </a>
-     <a class="nav-link" data-trans="nav.cat_serum" href="#catalog">
-      Serum
-     </a>
-     <a class="nav-link" data-trans="nav.cat_car" href="#catalog">
-      Parfum Auto
+     <a class="nav-link" data-trans="footer.contact" href="#contact">
+      Contact
      </a>
     </nav>
     <div class="nav-right">
@@ -259,36 +287,80 @@
    </div>
    <!-- Mobile Menu Dropdown Overlay -->
    <div aria-hidden="true" class="mobile-menu" id="mobile-menu">
+    <div class="mobile-menu-section-title" data-trans="footer.categories">
+     Product Lines
+    </div>
     <nav class="mobile-nav-links">
-     <a data-trans="nav.cat_all" href="#catalog">
-      Toate
+     <a class="mobile-nav-link" data-category="all" href="#catalog">
+      <img alt="" aria-hidden="true" class="mobile-nav-icon" src="../images/catalogue.svg"/>
+      <span data-trans="nav.cat_all">
+       Toate
+      </span>
      </a>
-     <a data-trans="nav.cat_bottles" href="#catalog">
-      Sticle
+     <a class="mobile-nav-link" data-category="parfum-siseleri" href="#catalog">
+      <img alt="" aria-hidden="true" class="mobile-nav-icon" src="../images/parfume.svg"/>
+      <span data-trans="nav.cat_bottles">
+       Sticle
+      </span>
      </a>
-     <a data-trans="nav.cat_caps" href="#catalog">
-      Capace
+     <a class="mobile-nav-link" data-category="parfum-kapaklari" href="#catalog">
+      <img alt="" aria-hidden="true" class="mobile-nav-icon" src="../images/cap.svg"/>
+      <span data-trans="nav.cat_caps">
+       Capace
+      </span>
      </a>
-     <a data-trans="nav.cat_pumps" href="#catalog">
-      Pompe
+     <a class="mobile-nav-link" data-category="pompa-bilezik" href="#catalog">
+      <img alt="" aria-hidden="true" class="mobile-nav-icon" src="../images/collar.svg"/>
+      <span data-trans="nav.cat_pumps">
+       Pompe
+      </span>
      </a>
-     <a data-trans="nav.cat_sets" href="#catalog">
-      Mini Seturi
+     <a class="mobile-nav-link" data-category="mini-set" href="#catalog">
+      <img alt="" aria-hidden="true" class="mobile-nav-icon" src="../images/msnsset.svg"/>
+      <span data-trans="nav.cat_sets">
+       Mini Seturi
+      </span>
      </a>
-     <a data-trans="nav.cat_diffusers" href="#catalog">
-      Difuzoare
+     <a class="mobile-nav-link" data-category="difuzor" href="#catalog">
+      <img alt="" aria-hidden="true" class="mobile-nav-icon" src="../images/room.svg"/>
+      <span data-trans="nav.cat_diffusers">
+       Difuzoare
+      </span>
      </a>
-     <a data-trans="nav.cat_sprays" href="#catalog">
-      Spray-uri
+     <a class="mobile-nav-link" data-category="plastik-spreyler" href="#catalog">
+      <img alt="" aria-hidden="true" class="mobile-nav-icon" src="../images/spray.svg"/>
+      <span data-trans="nav.cat_sprays">
+       Spray-uri
+      </span>
      </a>
-     <a data-trans="nav.cat_jars" href="#catalog">
-      Borcane
+     <a class="mobile-nav-link" data-category="krem-kavanozlari" href="#catalog">
+      <img alt="" aria-hidden="true" class="mobile-nav-icon" src="../images/bottlepainting.svg"/>
+      <span data-trans="nav.cat_jars">
+       Borcane
+      </span>
      </a>
-     <a data-trans="nav.cat_serum" href="#catalog">
-      Serum
+     <a class="mobile-nav-link" data-category="serum-siseleri" href="#catalog">
+      <img alt="" aria-hidden="true" class="mobile-nav-icon" src="../images/oil.svg"/>
+      <span data-trans="nav.cat_serum">
+       Serum
+      </span>
      </a>
-     <a data-trans="nav.cat_car" href="#catalog">
-      Parfum Auto
+     <a class="mobile-nav-link" data-category="arac-koku-sisesi" href="#catalog">
+      <img alt="" aria-hidden="true" class="mobile-nav-icon" src="../images/car.svg"/>
+      <span data-trans="nav.cat_car">
+       Parfum Auto
+      </span>
+     </a>
+    </nav>
+    <div class="mobile-menu-section-title" data-trans="footer.nav">
+     Navigation
+    </div>
+    <nav class="mobile-nav-links">
+     <a class="mobile-nav-link" data-trans="footer.about" href="#about">
+      Despre noi
+     </a>
+     <a class="mobile-nav-link" data-trans="footer.contact" href="#contact">
+      Contact
      </a>
     </nav>
     <div class="mobile-lang-selector">

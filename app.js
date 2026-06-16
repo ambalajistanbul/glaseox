@@ -1048,24 +1048,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 100);
   });
 
-  // Hamburger Menu overlay toggle
-  const hamburgerBtn = document.getElementById('hamburger-btn');
-  const mobileMenu = document.getElementById('mobile-menu');
-  if (hamburgerBtn && mobileMenu) {
-    hamburgerBtn.addEventListener('click', () => {
-      const isOpen = mobileMenu.classList.toggle('open');
-      hamburgerBtn.setAttribute('aria-expanded', isOpen);
-      mobileMenu.setAttribute('aria-hidden', !isOpen);
-    });
-
-    // Close mobile menu when clicking a link
-    mobileMenu.querySelectorAll('a').forEach(link => {
-      link.addEventListener('click', () => {
-        mobileMenu.classList.remove('open');
-        hamburgerBtn.setAttribute('aria-expanded', 'false');
-      });
-    });
-  }
 });
 
 // Setup language buttons
@@ -1350,8 +1332,6 @@ function setLanguage(lang) {
               "https://glaseox.com/images/parfum-kapaklari/1.jpg",
               "https://glaseox.com/images/pompa-bilezik/1.jpg"
             ];
-            const offersCount = [100, 50, 40];
-            const prices = ["0.10", "0.05", "0.03"];
             return {
               "@type": "ListItem",
               "position": index + 1,
@@ -1360,13 +1340,7 @@ function setLanguage(lang) {
                 "name": prod.name,
                 "image": images[index],
                 "description": prod.description,
-                "category": prod.category,
-                "offers": {
-                  "@type": "AggregateOffer",
-                  "priceCurrency": "USD",
-                  "offerCount": offersCount[index],
-                  "price": prices[index]
-                }
+                "category": prod.category
               }
             };
           })
@@ -1460,49 +1434,25 @@ function renderCategories() {
 }
 
 // Render premium header categories navigation menu (both desktop and mobile)
+// Render premium header categories navigation menu (both desktop and mobile)
 function renderHeaderNavMenu() {
-  const navMenu = document.getElementById('header-nav-menu');
-  const mobileNavMenu = document.querySelector('.mobile-nav-links');
-  
-  if (navMenu) navMenu.innerHTML = '';
-  if (mobileNavMenu) mobileNavMenu.innerHTML = '';
-  
-  categoriesMap.forEach(cat => {
-    // Determine translated label
-    let label = cat.nav ? (cat.nav[state.lang] || cat.nav['en']) : (cat[state.lang] || cat['en']);
-    
-    // Create Desktop Link
-    if (navMenu) {
-      const link = document.createElement('a');
-      link.href = '#catalog';
-      link.className = `nav-link ${state.category === cat.slug ? 'active' : ''}`;
-      link.textContent = label;
-      link.addEventListener('click', (e) => {
-        e.preventDefault();
-        selectCategory(cat.slug);
-      });
-      navMenu.appendChild(link);
+  // Update active state for desktop dropdown items
+  document.querySelectorAll('.dropdown-menu .dropdown-item').forEach(link => {
+    const categorySlug = link.getAttribute('data-category');
+    if (categorySlug === state.category) {
+      link.classList.add('active');
+    } else {
+      link.classList.remove('active');
     }
-    
-    // Create Mobile Link
-    if (mobileNavMenu) {
-      const link = document.createElement('a');
-      link.href = '#catalog';
-      link.className = `mobile-nav-link ${state.category === cat.slug ? 'active' : ''}`;
-      link.textContent = label;
-      link.addEventListener('click', (e) => {
-        e.preventDefault();
-        selectCategory(cat.slug);
-        // Close mobile menu
-        const hamburgerBtn = document.getElementById('hamburger-btn');
-        const mobileMenu = document.getElementById('mobile-menu');
-        if (mobileMenu && hamburgerBtn) {
-          mobileMenu.classList.remove('open');
-          hamburgerBtn.setAttribute('aria-expanded', 'false');
-          mobileMenu.setAttribute('aria-hidden', 'true');
-        }
-      });
-      mobileNavMenu.appendChild(link);
+  });
+  
+  // Update active state for mobile navigation links
+  document.querySelectorAll('.mobile-nav-links .mobile-nav-link').forEach(link => {
+    const categorySlug = link.getAttribute('data-category');
+    if (categorySlug === state.category) {
+      link.classList.add('active');
+    } else {
+      link.classList.remove('active');
     }
   });
 }
@@ -1527,45 +1477,30 @@ function selectCategory(categorySlug) {
     }
   }
   
-  // Scroll to categories view section smoothly
-  const targetSec = document.getElementById('categories-nav');
-  if (targetSec) {
-    targetSec.scrollIntoView({ behavior: 'smooth' });
+  // Scroll to catalog section smoothly
+  const catalogSec = document.getElementById('catalog');
+  if (catalogSec) {
+    catalogSec.scrollIntoView({ behavior: 'smooth' });
   }
 }
 
 function setupCategoryFilters() {
-  const container = document.getElementById('header-dropdown-container');
-  const btn = document.getElementById('header-categories-btn');
-  if (!container || !btn) return;
-  
-  btn.addEventListener('click', (e) => {
-    e.stopPropagation();
-    const isOpen = container.classList.contains('open');
-    if (isOpen) {
-      container.classList.remove('open');
-      btn.setAttribute('aria-expanded', 'false');
-    } else {
-      container.classList.add('open');
-      btn.setAttribute('aria-expanded', 'true');
-    }
-  });
-  
-  // Close dropdown on click outside
-  document.addEventListener('click', (e) => {
-    if (!container.contains(e.target)) {
-      container.classList.remove('open');
-      btn.setAttribute('aria-expanded', 'false');
-    }
-  });
-  
-  // Close dropdown on pressing Escape key
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && container.classList.contains('open')) {
-      container.classList.remove('open');
-      btn.setAttribute('aria-expanded', 'false');
-      btn.focus();
-    }
+  // Find all category links in header (desktop dropdown and mobile menu)
+  document.querySelectorAll('[data-category]').forEach(link => {
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+      const categorySlug = link.getAttribute('data-category');
+      selectCategory(categorySlug);
+      
+      // Close mobile menu if open
+      const hamburgerBtn = document.getElementById('hamburger-btn');
+      const mobileMenu = document.getElementById('mobile-menu');
+      if (mobileMenu && hamburgerBtn && mobileMenu.classList.contains('open')) {
+        mobileMenu.classList.remove('open');
+        hamburgerBtn.setAttribute('aria-expanded', 'false');
+        mobileMenu.setAttribute('aria-hidden', 'true');
+      }
+    });
   });
 }
 
