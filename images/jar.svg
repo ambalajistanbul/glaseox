@@ -1,0 +1,6 @@
+<svg id="jar" xmlns="http://www.w3.org/2000/svg" width="44" height="40" viewBox="0 0 44 40" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Jar Lid -->
+  <rect x="8" y="7" width="28" height="7" rx="1.5" />
+  <!-- Jar Body -->
+  <path d="M5,14 L5,31 A5,5,0,0,0,10,36 L34,36 A5,5,0,0,0,39,31 L39,14 Z" />
+</svg>
