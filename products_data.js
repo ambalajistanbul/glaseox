@@ -20579,8 +20579,8 @@ window.PRODUCTS_DATA = [
     "category_ru": "Баночки для крема",
     "category_ro": "Borcane de Cremă",
     "slug": "cream-jar-frosted",
-    "main_image": "./images/jar.svg",
-    "cover_image": "./images/jar.svg",
+    "main_image": "./images/creamfrosted_xl.jpg",
+    "cover_image": "./images/frostd_xl.jpg",
     "title_en": "Cream Jar Frosted",
     "title_ru": "Cream Jar Frosted",
     "title_ro": "Cream Jar Frosted",
@@ -20617,7 +20617,8 @@ window.PRODUCTS_DATA = [
       "Adâncime": "60 mm"
     },
     "images": [
-      "./images/jar.svg"
+      "./images/creamfrosted_xl.jpg",
+      "./images/frostd_xl.jpg"
     ],
     "tech_drawing_img": null,
     "tech_drawing_pdf": null,
@@ -20743,8 +20744,8 @@ window.PRODUCTS_DATA = [
     "category_ru": "Баночки для крема",
     "category_ro": "Borcane de Cremă",
     "slug": "cream-jar",
-    "main_image": "./images/jar.svg",
-    "cover_image": "./images/jar.svg",
+    "main_image": "./images/creamjar_xl.jpg",
+    "cover_image": "./images/creamkonsept_xl.jpg",
     "title_en": "Cream Jar",
     "title_ru": "Cream Jar",
     "title_ro": "Cream Jar",
@@ -20781,7 +20782,8 @@ window.PRODUCTS_DATA = [
       "Adâncime": "60 mm"
     },
     "images": [
-      "./images/jar.svg"
+      "./images/creamjar_xl.jpg",
+      "./images/creamkonsept_xl.jpg"
     ],
     "tech_drawing_img": null,
     "tech_drawing_pdf": null,
