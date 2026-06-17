@@ -35,7 +35,7 @@ const UI_TRANSLATIONS = {
     "hero": {
       "badge": "Trusted by 500+ global brands",
       "title": "Premium Glass Packaging for the World's Finest Fragrances",
-      "subtitle": "Manufacturer & wholesale supplier of perfume bottles, caps, pumps, diffusers and more. 430+ products. Worldwide delivery to 60+ countries.",
+      "subtitle": "Manufacturer & wholesale supplier of perfume bottles, caps, pumps, diffusers and more. 400+ products. Worldwide delivery to 60+ countries.",
       "cta1": "Explore Catalog",
       "cta2": "Request a Quote",
       "stats": {
@@ -47,7 +47,7 @@ const UI_TRANSLATIONS = {
     },
     "categories": {
       "title": "Product Categories",
-      "subtitle": "Eight specialised lines. 430+ products. One trusted partner.",
+      "subtitle": "Eight specialised lines. 400+ products. One trusted partner.",
       "viewAll": "View all products",
       "justLanded": "Just Landed",
       "viewAllNew": "View all new products"
@@ -74,7 +74,7 @@ const UI_TRANSLATIONS = {
     },
     "products": {
       "title": "Complete Product Catalogue",
-      "subtitle": "Browse 430+ wholesale perfume packaging products. Filter by category, capacity, color and more.",
+      "subtitle": "Browse 400+ wholesale perfume packaging products. Filter by category, capacity, color and more.",
       "filter": "Filters",
       "all": "All Products",
       "new": "New",
@@ -119,7 +119,7 @@ const UI_TRANSLATIONS = {
       "title": "Leading Global Manufacturer of Glass Packaging",
       "p1": "Glaseox has been a trusted name in the perfume and cosmetics packaging industry for over 18 years. From our state-of-the-art facility, we manufacture and export premium glass bottles, caps, pumps, diffusers and accessories to more than 60 countries worldwide.",
       "p2": "Our commitment to quality, design excellence and reliable delivery has made us the partner of choice for hundreds of fragrance brands — from niche artisan houses to the world's leading global perfume labels.",
-      "p3": "With 430+ products across 8 specialised lines, we offer the widest catalogue in the industry. Every product is crafted with care, inspected with precision and shipped with full documentation.",
+      "p3": "With 400+ products across 8 specialised lines, we offer the widest catalogue in the industry. Every product is crafted with care, inspected with precision and shipped with full documentation.",
       "features": [
         {
           "title": "Premium Quality",
@@ -265,7 +265,7 @@ const UI_TRANSLATIONS = {
     "hero": {
       "badge": "Ales de peste 500 de branduri globale",
       "title": "Ambalaje premium din sticlă pentru cele mai rafinate parfumuri din lume",
-      "subtitle": "Producător și furnizor en-gros de sticle de parfum, capace, pompe, difuzoare și multe altele. 430+ produse. Livrare în peste 60 de țări.",
+      "subtitle": "Producător și furnizor en-gros de sticle de parfum, capace, pompe, difuzoare și multe altele. 400+ produse. Livrare în peste 60 de țări.",
       "cta1": "Explorează catalogul",
       "cta2": "Cere o ofertă",
       "stats": {
@@ -277,7 +277,7 @@ const UI_TRANSLATIONS = {
     },
     "categories": {
       "title": "Categorii de produse",
-      "subtitle": "Opt linii specializate. 430+ produse. Un singur partener de încredere.",
+      "subtitle": "Opt linii specializate. 400+ produse. Un singur partener de încredere.",
       "viewAll": "Vezi toate produsele",
       "justLanded": "Recent Lansate",
       "viewAllNew": "Vezi toate produsele noi"
@@ -304,7 +304,7 @@ const UI_TRANSLATIONS = {
     },
     "products": {
       "title": "Catalog complet de produse",
-      "subtitle": "Răsfoiește 430+ produse de ambalare parfum en-gros. Filtrează după categorie, capacitate, culoare și mai mult.",
+      "subtitle": "Răsfoiește 400+ produse de ambalare parfum en-gros. Filtrează după categorie, capacitate, culoare și mai mult.",
       "filter": "Filtre",
       "all": "Toate produsele",
       "new": "Nou",
@@ -349,7 +349,7 @@ const UI_TRANSLATIONS = {
       "title": "Producător global lider de ambalaje din sticlă",
       "p1": "Glaseox este un nume de încredere în industria ambalajelor de parfum și cosmetice de peste 18 ani. Din unitatea noastră de ultimă generație, producem și exportăm sticle de sticlă, capace, pompe, difuzoare și accesorii premium către peste 60 de țări din întreaga lume.",
       "p2": "Angajamentul nostru pentru calitate, excelență în design și livrare fiabilă ne-a făcut partenerul preferat pentru sute de branduri de parfumuri — de la case artizanale nișate la cele mai importante branduri globale.",
-      "p3": "Cu 430+ produse în 8 linii specializate, oferim cel mai larg catalog din industrie. Fiecare produs este creat cu grijă, inspectat cu precizie și expediat cu documentație completă.",
+      "p3": "Cu 400+ produse în 8 linii specializate, oferim cel mai larg catalog din industrie. Fiecare produs este creat cu grijă, inspectat cu precizie și expediat cu documentație completă.",
       "features": [
         {
           "title": "Calitate premium",
@@ -495,7 +495,7 @@ const UI_TRANSLATIONS = {
     "hero": {
       "badge": "Нам доверяют 500+ мировых брендов",
       "title": "Премиальная стеклянная упаковка для лучших ароматов мира",
-      "subtitle": "Производитель и оптовый поставщик флаконов для духов, колпачков, помп, диффузоров и многого другого. 430+ товаров. Доставка в более чем 60 стран мира.",
+      "subtitle": "Производитель и оптовый поставщик флаконов для духов, колпачков, помп, диффузоров и многого другого. 400+ товаров. Доставка в более чем 60 стран мира.",
       "cta1": "Смотреть каталог",
       "cta2": "Запросить КП",
       "stats": {
@@ -507,7 +507,7 @@ const UI_TRANSLATIONS = {
     },
     "categories": {
       "title": "Категории продукции",
-      "subtitle": "Восемь специализированных линеек. 430+ товаров. Один надёжный партнёр.",
+      "subtitle": "Восемь специализированных линеек. 400+ товаров. Один надёжный партнёр.",
       "viewAll": "Все товары",
       "justLanded": "Новое поступление",
       "viewAllNew": "Смотреть все новинки"
@@ -534,7 +534,7 @@ const UI_TRANSLATIONS = {
     },
     "products": {
       "title": "Полный каталог продукции",
-      "subtitle": "Более 430+ оптовых парфюмерных упаковок. Фильтруйте по категории, объёму, цвету и другим параметрам.",
+      "subtitle": "Более 400 оптовых парфюмерных упаковок. Фильтруйте по категории, объёму, цвету и другим параметрам.",
       "filter": "Фильтры",
       "all": "Все товары",
       "new": "Новинки",
@@ -579,7 +579,7 @@ const UI_TRANSLATIONS = {
       "title": "Ведущий мировой производитель стеклянной упаковки",
       "p1": "Glaseox — надёжное имя в индустрии парфюмерной и косметической упаковки уже более 18 лет. С нашего современного предприятия мы производим и экспортируем премиальные стеклянные флаконы, колпачки, помпы, диффузоры и аксессуары в более чем 60 стран мира.",
       "p2": "Наша приверженность качеству, дизайну и надёжным поставкам сделала нас партнёром выбора для сотен парфюмерных брендов — от нишевых ремесленных домов до ведущих мировых парфюмерных брендов.",
-      "p3": "Более 430 товаров в 8 специализированных линейках — у нас самый широкий каталог в отрасли. Каждый продукт создан с заботой, проверен с точностью и отправлен с полной документацией.",
+      "p3": "Более 400 товаров в 8 специализированных линейках — у нас самый широкий каталог в отрасли. Каждый продукт создан с заботой, проверен с точностью и отправлен с полной документацией.",
       "features": [
         {
           "title": "Премиальное качество",
@@ -925,10 +925,10 @@ const categoriesMap = [
   { slug: "parfum-siseleri", tr: "Parfüm Şişeleri", en: "Perfume Bottles", ru: "Флаконы для духов", ro: "Sticle de Parfum", icon: "./images/parfume.svg", nav: { en: "Bottles", ru: "Флаконы", ro: "Sticle", tr: "Şişeler" } },
   { slug: "parfum-kapaklari", tr: "Parfüm Kapakları", en: "Perfume Caps", ru: "Крышки для духов", ro: "Capace de Parfum", icon: "./images/cap.svg", nav: { en: "Caps", ru: "Крышки", ro: "Capace", tr: "Kapaklar" } },
   { slug: "pompa-bilezik", tr: "Pompa & Bilezik", en: "Pumps & Collars", ru: "Помпы и воротнички", ro: "Pompe și Gulerase", icon: "./images/collar.svg", nav: { en: "Pumps", ru: "Помпы", ro: "Pompe", tr: "Pompalar" } },
-  { slug: "mini-set", tr: "Mini Set", en: "Mini Sets", ru: "Мини-наборы", ro: "Mini Seturi", icon: "./images/msnsset.svg", nav: { en: "Mini Sets", ru: "Мини-сеты", ro: "Mini Seturi", tr: "Mini Setler" } },
+  { slug: "mini-set", tr: "Mini Set", en: "Mini Sets", ru: "Мини-наборы", ro: "Mini Seturi", icon: "./images/mini-set.svg", nav: { en: "Mini Sets", ru: "Мини-сеты", ro: "Mini Seturi", tr: "Mini Setler" } },
   { slug: "difuzor", tr: "Difüzör", en: "Diffuser Bottles", ru: "Диффузоры", ro: "Difuzoare", icon: "./images/room.svg", nav: { en: "Diffusers", ru: "Диффузоры", ro: "Difuzoare", tr: "Difüzörler" } },
   { slug: "plastik-spreyler", tr: "Plastik Spreyler", en: "Plastic Sprays", ru: "Пластиковые спреи", ro: "Spray-uri din Plastic", icon: "./images/spray.svg", nav: { en: "Sprays", ru: "Спреи", ro: "Spray-uri", tr: "Spreyler" } },
-  { slug: "krem-kavanozlari", tr: "Krem Kavanozları", en: "Cream Jars", ru: "Баночки для крема", ro: "Borcane de Cremă", icon: "./images/bottlepainting.svg", nav: { en: "Jars", ru: "Баночки", ro: "Borcane", tr: "Kavanozlar" } },
+  { slug: "krem-kavanozlari", tr: "Krem Kavanozları", en: "Cream Jars", ru: "Баночки для крема", ro: "Borcane de Cremă", icon: "./images/jar.svg", nav: { en: "Jars", ru: "Баночки", ro: "Borcane", tr: "Kavanozlar" } },
   { slug: "serum-siseleri", tr: "Serum Şişeleri", en: "Serum Bottles", ru: "Флаконы для сыворотки", ro: "Sticle de Serum", icon: "./images/oil.svg", nav: { en: "Serum", ru: "Сыворотки", ro: "Serum", tr: "Serum" } },
   { slug: "arac-koku-sisesi", tr: "Araç Koku Şişesi", en: "Car Air Freshener Bottles", ru: "Автомобильные флаконы", ro: "Sticle de Parfum Auto", icon: "./images/car.svg", nav: { en: "Car Perfumes", ru: "Для авто", ro: "Parfum Auto", tr: "Oto Koku" } }
 ];
@@ -1048,6 +1048,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 100);
   });
 
+  setupDropdownAccessibility();
+  updateDynamicProductCount();
 });
 
 // Setup language buttons
@@ -1325,7 +1327,7 @@ function setLanguage(lang) {
           "@id": "https://glaseox.com/#catalog-list",
           "name": lang === 'ru' ? "Каталог премиальной стеклянной упаковки Glaseox" : (lang === 'ro' ? "Catalog de Ambalaje Premium din Sticlă Glaseox" : "Glaseox Premium Glass Packaging Catalog"),
           "url": "https://glaseox.com/#catalog",
-          "numberOfItems": 430,
+          "numberOfItems": window.PRODUCTS_DATA ? window.PRODUCTS_DATA.length : 416,
           "itemListElement": (productSchemas[lang] || productSchemas['en']).map((prod, index) => {
             const images = [
               "https://glaseox.com/images/parfum-siseleri/1.jpg",
@@ -2460,3 +2462,38 @@ function renderFAQs() {
     container.appendChild(faqBox);
   });
 }
+
+function setupDropdownAccessibility() {
+  const dropdowns = document.querySelectorAll('.nav-dropdown');
+  dropdowns.forEach(dropdown => {
+    const trigger = dropdown.querySelector('.dropdown-trigger');
+    if (!trigger) return;
+    
+    const setExpanded = (isExpanded) => {
+      trigger.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
+    };
+    
+    dropdown.addEventListener('mouseenter', () => setExpanded(true));
+    dropdown.addEventListener('mouseleave', () => setExpanded(false));
+    
+    dropdown.addEventListener('focusin', () => setExpanded(true));
+    dropdown.addEventListener('focusout', (e) => {
+      if (!dropdown.contains(e.relatedTarget)) {
+        setExpanded(false);
+      }
+    });
+
+    trigger.addEventListener('click', () => {
+      const isExpanded = trigger.getAttribute('aria-expanded') === 'true';
+      setExpanded(!isExpanded);
+    });
+  });
+}
+
+function updateDynamicProductCount() {
+  const statsProd = document.querySelector('.stats-grid .stat-card:first-child .stat-number');
+  if (statsProd && window.PRODUCTS_DATA) {
+    statsProd.textContent = window.PRODUCTS_DATA.length + '+';
+  }
+}
+
