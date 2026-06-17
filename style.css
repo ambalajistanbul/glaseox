@@ -84,6 +84,7 @@
 html {
   scroll-behavior: smooth;
   font-size: 16px;
+  overflow-x: hidden;
 }
 
 body {
@@ -1880,7 +1881,7 @@ footer {
   }
   
   .category-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 10px;
   }
   
@@ -1894,9 +1895,34 @@ footer {
     gap: 16px;
     text-align: center;
   }
+
+  .stats-banner {
+    padding: 24px 20px;
+  }
+  .stat-number {
+    font-size: 2rem;
+  }
+  .stat-label {
+    font-size: 0.75rem;
+  }
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
 }
 
 @media (max-width: 480px) {
+  .logo-svg {
+    height: 38px;
+  }
+  .lang-btn {
+    padding: 3px 6px;
+    font-size: 0.65rem;
+  }
+  header .container {
+    padding: 0 12px;
+  }
+
   .products-grid {
     grid-template-columns: 1fr;
   }
@@ -1911,10 +1937,31 @@ footer {
   
   .category-card .category-title {
     font-size: 0.8rem;
+    word-break: break-word;
   }
   
   .modal-actions {
     flex-direction: column;
+  }
+
+  .stats-banner {
+    padding: 16px 12px;
+  }
+  .stat-number {
+    font-size: 1.8rem;
+  }
+  .stat-label {
+    font-size: 0.68rem;
+  }
+  .stats-grid {
+    gap: 20px 12px;
+  }
+  .notice-banner {
+    padding: 12px 14px;
+    gap: 8px;
+  }
+  .contact-card {
+    padding: 20px 16px;
   }
 }
 
